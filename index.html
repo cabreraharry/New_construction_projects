@@ -194,6 +194,11 @@
                     inventory, and direct agent access for licensed brokers within the U.S. Prime Realty network.</p>
             </div>
 
+            <!-- Filters -->
+            <div id="filter-container" class="mb-12 flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
+                <!-- Filters injected via JS -->
+            </div>
+
             <!-- Project Grid -->
             <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 xl:gap-14">
                 <!-- Cards Injected via JS -->
@@ -271,13 +276,13 @@
         <!-- Backdrop -->
         <div class="absolute inset-0 bg-black/80 backdrop-blur-lg" onclick="closeModal()"></div>
 
-        <!-- Modal Content -->
-        <div class="relative w-full max-w-[1200px] max-h-[90vh] bg-brand-surface border border-white/10 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden flex flex-col transform scale-95 transition-transform duration-300"
+        <!-- Modal Content (Grand Showcase Split) -->
+        <div class="relative w-full h-[95vh] max-w-[1600px] bg-brand-surface border border-white/10 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden flex flex-col lg:flex-row transform scale-95 transition-transform duration-300"
             id="modal-container">
 
-            <!-- Close Button -->
+            <!-- Close Button (Always visible top right) -->
             <button onclick="closeModal()"
-                class="absolute top-4 right-4 z-20 w-10 h-10 bg-black/50 hover:bg-brand-gold text-white hover:text-black rounded-full flex items-center justify-center backdrop-blur-md transition-all duration-300 group"
+                class="absolute top-4 right-4 z-50 w-10 h-10 bg-black/50 hover:bg-brand-gold text-white hover:text-black rounded-full flex items-center justify-center backdrop-blur-md transition-all duration-300 group shadow-xl"
                 aria-label="Close modal">
                 <svg class="w-5 h-5 group-hover:rotate-90 transition-transform duration-300" fill="none"
                     stroke="currentColor" viewBox="0 0 24 24">
@@ -286,77 +291,106 @@
                 </svg>
             </button>
 
-            <!-- Modal Header with Image -->
-            <div class="relative h-64 sm:h-80 w-full flex-shrink-0">
-                <img id="modal-image" src="" alt="Project" class="w-full h-full object-cover" />
-                <div class="absolute inset-0 bg-gradient-to-t from-brand-surface via-brand-surface/40 to-transparent">
-                </div>
+            <!-- LEFT PANEL: Image Gallery (65%) -->
+            <div class="relative w-full lg:w-[65%] h-[40vh] lg:h-full flex-shrink-0 group bg-black">
+                <!-- Main Image - No Dark Gradient Overlay Here! Let it be bright! -->
+                <img id="modal-image" src="" alt="Project" class="w-full h-full object-cover transition-opacity duration-300" />
+                
+                <!-- Gentle bottom gradient just for the thumbnails -->
+                <div class="absolute inset-0 top-auto h-32 bg-gradient-to-t from-black/80 to-transparent pointer-events-none"></div>
 
-                <div class="absolute bottom-6 left-6 right-6">
-                    <span id="modal-location"
-                        class="inline-flex items-center px-3 py-1 rounded bg-black/60 border border-white/10 text-brand-gold text-xs font-semibold uppercase tracking-widest backdrop-blur-md mb-3">
-                        <svg class="w-3 h-3 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                            </path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                        </svg>
-                        Location
-                    </span>
-                    <h2 id="modal-title" class="font-heading text-3xl sm:text-5xl font-bold text-white drop-shadow-lg">
-                        Project Name</h2>
+                <!-- Carousel Controls -->
+                <button onclick="prevImage()" class="absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/40 hover:bg-white text-white hover:text-black rounded-full flex items-center justify-center backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300 border border-white/20">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button onclick="nextImage()" class="absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/40 hover:bg-white text-white hover:text-black rounded-full flex items-center justify-center backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300 border border-white/20">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </button>
+
+                <!-- Thumbnails Array (Bottom Center) -->
+                <div id="modal-thumbnails" class="absolute bottom-6 left-0 right-0 flex justify-center gap-3 px-4 overflow-x-auto">
+                    <!-- Injected via JS -->
                 </div>
             </div>
 
-            <!-- Modal Body (Scrollable) -->
-            <div class="p-6 sm:p-10 overflow-y-auto custom-scrollbar flex-grow bg-brand-surface">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+            <!-- RIGHT PANEL: Rich Details & Fast Facts (35%) -->
+            <div class="w-full lg:w-[35%] h-[60vh] lg:h-full overflow-y-auto custom-scrollbar bg-[#0f0f11] flex flex-col">
+                
+                <!-- Details Header -->
+                <div class="p-8 pb-6 border-b border-white/5 sticky top-0 bg-[#0f0f11]/95 backdrop-blur-md z-10 pt-10">
+                    <span id="modal-location"
+                        class="inline-flex items-center px-2.5 py-1 rounded bg-brand-gold/10 border border-brand-gold/20 text-brand-gold text-[10px] font-bold uppercase tracking-widest mb-3">
+                        <svg class="w-3 h-3 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        Location
+                    </span>
+                    <h2 id="modal-title" class="font-heading text-3xl font-bold text-white leading-tight">Project Name</h2>
+                </div>
 
-                    <!-- Sidebar Specs -->
-                    <div class="lg:col-span-4 space-y-6">
-                        <div class="glass-panel p-6 rounded-lg">
-                            <h4
-                                class="font-heading font-bold text-white mb-6 uppercase tracking-widest text-sm flex items-center">
-                                <span class="w-1.5 h-1.5 bg-brand-gold rounded-full mr-3"></span>
-                                At a Glance
-                            </h4>
+                <!-- Details Body -->
+                <div class="p-8 flex-grow space-y-10">
+                    
+                    <!-- Description text -->
+                    <div>
+                        <p id="modal-description" class="text-gray-400 font-light leading-relaxed text-sm"></p>
+                    </div>
 
-                            <div class="space-y-5">
-                                <div class="pb-4 border-b border-white/5">
-                                    <p class="text-xs text-gray-500 uppercase tracking-widest mb-1.5 font-medium">Broker
-                                        Commission</p>
-                                    <p id="modal-commission" class="text-white font-medium text-lg"></p>
-                                </div>
-                                <div class="pb-4 border-b border-white/5">
-                                    <p class="text-xs text-gray-500 uppercase tracking-widest mb-1.5 font-medium">HOA
-                                        Fees</p>
-                                    <p id="modal-hoa" class="text-white font-medium text-lg"></p>
-                                </div>
-                                <div>
-                                    <p class="text-xs text-gray-500 uppercase tracking-widest mb-1.5 font-medium">Sales
-                                        Contact</p>
-                                    <p id="modal-contact" class="text-brand-gold font-medium"></p>
-                                </div>
+                    <!-- Fast Facts Grid -->
+                    <div>
+                        <h4 class="text-[11px] font-bold text-brand-gold uppercase tracking-widest mb-4 flex items-center gap-3">
+                            Fast Facts <div class="h-px bg-white/10 flex-grow"></div>
+                        </h4>
+                        
+                        <div class="grid grid-cols-2 gap-x-6 gap-y-6">
+                            <div>
+                                <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-1.5">Starting At</p>
+                                <p id="modal-price" class="text-white font-medium text-lg"></p>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-1.5">Property Type</p>
+                                <p id="modal-type" class="text-white font-medium text-[15px]"></p>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-1.5">Total Size Range</p>
+                                <p id="modal-size" class="text-white font-medium text-[15px]"></p>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-1.5">Estimated Delivery</p>
+                                <p id="modal-delivery" class="text-white font-medium text-[15px]"></p>
+                            </div>
+                            <div class="col-span-2">
+                                <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-1.5">Developer</p>
+                                <p id="modal-developer" class="text-white font-medium text-[15px]"></p>
+                            </div>
+                            <div class="col-span-2">
+                                <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-1.5">Architect</p>
+                                <p id="modal-architect" class="text-white font-medium text-[15px]"></p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Inventory Table -->
-                    <div class="lg:col-span-8">
-                        <div class="flex items-center justify-between mb-6">
-                            <h4 class="font-heading text-2xl font-bold text-white">Current Inventory</h4>
-                            <span
-                                class="text-xs px-2 py-1 bg-white/5 text-gray-400 rounded uppercase tracking-wider border border-white/10">Subject
-                                to Change</span>
-                        </div>
-
-                        <div id="modal-inventory-container"
-                            class="rounded-lg overflow-hidden border border-white/10 glass-panel">
-                            <!-- Table injected here via JS -->
-                        </div>
+                    <!-- Amenities List -->
+                    <div>
+                        <h4 class="text-[11px] font-bold text-brand-gold uppercase tracking-widest mb-4 flex items-center gap-3">
+                            Key Features & Amenities <div class="h-px bg-white/10 flex-grow"></div>
+                        </h4>
+                        <ul id="modal-amenities" class="space-y-3">
+                            <!-- Injected via JS -->
+                        </ul>
                     </div>
+
                 </div>
+
+                <!-- Sticky CTA Bottom -->
+                <div class="p-8 border-t border-white/5 bg-[#0a0a0b] sticky bottom-0">
+                    <p class="text-xs text-gray-500 mb-4 text-center">Contact us to receive comprehensive floor plans and exact pricing for available units.</p>
+                    <a href="https://usprimerealty.com/south-florida-real-estate/agents/" target="_blank" class="block w-full text-center px-6 py-4 bg-gold-gradient text-black font-semibold tracking-wider text-sm uppercase rounded shadow-[0_4px_20px_rgba(212,175,55,0.2)] hover:shadow-[0_4px_30px_rgba(212,175,55,0.4)] transition-all duration-300">
+                        Inquire About Property
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>
