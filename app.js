@@ -12,10 +12,10 @@ const projectsData = [
         developer: "Exclusive Builder",
         architect: "Renowned Firm",
         delivery: "Q4 2026",
-        description: "A boutique collection of ultra-luxury single-family homes nestled within a pristine gated community. Highlights: 
-• Lush, manicured landscapes
-• Massive open layouts
-• Call us for direct floor plans and to schedule a private tour.",
+        description: `A boutique collection of ultra-luxury single-family homes nestled within a pristine gated community. Highlights: 
+ Lush, manicured landscapes
+ Massive open layouts
+ Call us for direct floor plans and to schedule a private tour.`,
         amenities: ["Gated Security", "Private Golf Course Access", "Resort-Style Club Pool", "Tennis Center"],
         images: [
             "https://www.dropbox.com/scl/fo/0m71qnjxbqdmyszzxkd4k/AEx94veF4A0p0iFXlv1wHVA/RENDERINGS/AMENITIES/Clubhouse%20Front%20View_LR%20REV1.jpg?rlkey=hnisv6lsp5dln8a5936pwr7as&raw=1",
@@ -35,11 +35,11 @@ const projectsData = [
         developer: "Luxury Developer",
         architect: "Top Tier Architect",
         delivery: "2027",
-        description: "The world's first branded residential tower of its kind. Highlights:
-• Patented in-unit car elevator
-• Private oceanfront pools per unit
-• Unprecedented lifestyle overlooking the Atlantic Ocean
-• Call for exact unit availability and our exclusive buyer incentives.",
+        description: `The world's first branded residential tower of its kind. Highlights:
+ Patented in-unit car elevator
+ Private oceanfront pools per unit
+ Unprecedented lifestyle overlooking the Atlantic Ocean
+ Call for exact unit availability and our exclusive buyer incentives.`,
         amenities: ["In-Unit Car Elevator (Dezervator)", "Private Oceanfront Pool per Unit", "Cigar Lounge", "Macallan Bar"],
         images: [
             "https://18401collinsavenue.com/wp-content/uploads/2025/06/card_building.jpg",
@@ -59,10 +59,10 @@ const projectsData = [
         developer: "Premier Group",
         architect: "Award-Winning Firm",
         delivery: "Q2 2026",
-        description: "A mixed-use destination featuring twin high-rise luxury towers spanning across 10 acres of prime real estate. Highlights:
-• Sweeping ocean views
-• Unparalleled on-site dining and retail
-• Call us immediately for first-access pricing.",
+        description: `A mixed-use destination featuring twin high-rise luxury towers spanning across 10 acres of prime real estate. Highlights:
+ Sweeping ocean views
+ Unparalleled on-site dining and retail
+ Call us immediately for first-access pricing.`,
         amenities: ["Six Pools & Cabanas", "State-of-the-Art Fitness Center", "Golf Simulator", "Valet Parking"],
         images: [
             "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/ABt1Hi9POOa4XKvmzjz0jSo/Oasis%20Hallandale%20-%20Broker%20Assets/Renderings/Exterior/Oasis%20Hallandale%203D%20Escale%20I.jpg?rlkey=gu24gf8wxdgspn0v0a64tgdhv&dl=1",
@@ -82,10 +82,10 @@ const projectsData = [
         developer: "Leading Developer",
         architect: "International Architect",
         delivery: "2026",
-        description: "Situated in the heart of Brickell, seamlessly blending the energetic atmosphere of Miami’s financial district with refined hospitality services. Highlights:
-• Ultimate urban oasis
-• Resort-style rooftop
-• Call to discuss remaining inventory.",
+        description: `Situated in the heart of Brickell, seamlessly blending the energetic atmosphere of Miamis financial district with refined hospitality services. Highlights:
+ Ultimate urban oasis
+ Resort-style rooftop
+ Call to discuss remaining inventory.`,
         amenities: ["Viceroy Hotel Services", "Rooftop Pool Deck", "Billiards & Game Room", "Business Center"],
         images: [
             "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/ABowoA7nJ0t8nMxh8w9iVPQ/8.%20Renderings/Hi%20Res%20Renderings/Billiard%20Lounge_Delivery.JPG?rlkey=mquo1lfk7gb3lluo2f9h9ncpg&dl=1",
@@ -105,10 +105,10 @@ const projectsData = [
         developer: "Boutique Developer",
         architect: "Modern Design Firm",
         delivery: "2027",
-        description: "An ethos of soulful living and exquisite culinary experiences. Highlights:
-• Short-term rental approved (incredible ROI potential)
-• Integrated dining and lounges
-• Call us to secure a high-floor unit before they sell out.",
+        description: `An ethos of soulful living and exquisite culinary experiences. Highlights:
+ Short-term rental approved (incredible ROI potential)
+ Integrated dining and lounges
+ Call us to secure a high-floor unit before they sell out.`,
         amenities: ["Short-term Rental Approved", "Multiple Casa Tua Restaurants", "Wine Tasting Room", "Rooftop Lounge"],
         images: [
             "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/AELUPnrhu1OD9EEu1PeKzBw/Renderings/HERO%20%26%20SKYLINE/Hero%20Daytime%20-%20ORA%20by%20Casa%20Tua.jpg?rlkey=h02to28akb2zeotrdeghg1eql&dl=1",
@@ -128,10 +128,10 @@ const projectsData = [
         developer: "Signature Developer",
         architect: "Global Firm",
         delivery: "2027",
-        description: "An aerodynamically inspired design defining the Miami skyline. Highlights:
-• Lushly landscaped mobility hubs
-• Striking silver finishes
-• Call us for the verified price list and floor plans.",
+        description: `An aerodynamically inspired design defining the Miami skyline. Highlights:
+ Lushly landscaped mobility hubs
+ Striking silver finishes
+ Call us for the verified price list and floor plans.`,
         amenities: ["Mercedes-Benz Courtesy Cars", "EV Charging Stations", "Rooftop Observatory", "Wellness Spa"],
         images: [
             "https://www.dropbox.com/scl/fo/5l8hpbn22mgdwpiho63cv/AOxuZCU61ChIc-Majv_IcfM/Renderings/1.%20Hero%20East%2C%20Mercedes%20Benz%20Places%20Miami%2C%20JDS%20Development%20Group%2C%20by%20The%20Boundary.jpg?rlkey=ctzawz2mzdzierdos0g80aeu6&dl=1",
@@ -151,11 +151,11 @@ const projectsData = [
         developer: "Luxury Builder",
         architect: "Custom Design",
         delivery: "Q3 2026",
-        description: "Boca Raton's premier new ultra-modern luxury home community. Highlights:
-• 100% contemporary aesthetic
-• Massive open floor plans
-• Sprawling clubhouse
-• Call us today to tour the model homes privately.",
+        description: `Boca Raton's premier new ultra-modern luxury home community. Highlights:
+ 100% contemporary aesthetic
+ Massive open floor plans
+ Sprawling clubhouse
+ Call us today to tour the model homes privately.`,
         amenities: ["39,000 Sq Ft Clubhouse", "Indoor Basketball Court", "Pickleball & Tennis Complex", "Bistro & Bar"],
         images: [
             "https://www.glhomes.com/contentassets/9bddf1b44528414eba8420de4d954eaa/loe-sumatra-grand-hero-d2.jpg",
@@ -175,10 +175,10 @@ const projectsData = [
         developer: "Boutique Group",
         architect: "Renowned Designer",
         delivery: "Q4 2025",
-        description: "An ultra-boutique collection of modern, custom-crafted townhomes steps away from the sand. Highlights:
-• Enjoy the privacy of a single-family home
-• High-end finishes and rooftop space
-• Extremely limited supply - Call us now to reserve.",
+        description: `An ultra-boutique collection of modern, custom-crafted townhomes steps away from the sand. Highlights:
+ Enjoy the privacy of a single-family home
+ High-end finishes and rooftop space
+ Extremely limited supply - Call us now to reserve.`,
         amenities: ["Private Rooftop Plunge Pools", "Summer Kitchens", "Beach Club Access", "Private Elevator Access"],
         images: [
             "https://www.surfrowresidences.com/wp-content/uploads/2025/07/Surf-Row-1Drone-morning_4-scaled.jpg",
@@ -198,10 +198,10 @@ const projectsData = [
         developer: "Waterfront Developer",
         architect: "Luxury Architect",
         delivery: "2026",
-        description: "A private waterfront harbor nestled within an exclusive, tranquil enclave. Highlights:
-• Expansive residences with glass walls
-• Sweeping vistas of Biscayne Bay
-• Call for exact dockage details and unit sizes.",
+        description: `A private waterfront harbor nestled within an exclusive, tranquil enclave. Highlights:
+ Expansive residences with glass walls
+ Sweeping vistas of Biscayne Bay
+ Call for exact dockage details and unit sizes.`,
         amenities: ["Private Boat Slips", "Waterfront Pool Deck", "Resident Dockside Lounge", "Kids Splash Pad"],
         images: [
             "https://labaiabayharbor.com/wp-content/uploads/2025/07/Copy-of-Bay-Harbor-PO-La-Baia_North-Tower-06-Rear_View-5000-x-4700-01-2-scaled-1.jpg",
@@ -221,10 +221,10 @@ const projectsData = [
         developer: "Wellness Developer",
         architect: "Holistic Design Firm",
         delivery: "2025",
-        description: "Integrates holistic living directly into luxury real estate. Highlights:
-• Purified air and water systems
-• Restorative spas directly in the building
-• Call our team to find the perfect wellness-focused residence for you.",
+        description: `Integrates holistic living directly into luxury real estate. Highlights:
+ Purified air and water systems
+ Restorative spas directly in the building
+ Call our team to find the perfect wellness-focused residence for you.`,
         amenities: ["World-Class Wellness Spa", "Halotherapy Salt Lounge", "IV Vitamin Therapy Access", "Aromatherapy Systems"],
         images: [
             "https://i0.wp.com/www.thewellbayharbor.com/wp-content/uploads/TEA2314_KaneConcourse_S210_INT_GroundLobby_Final_2k-1.jpg?w=1600&quality=89&ssl=1",
@@ -244,11 +244,11 @@ const projectsData = [
         developer: "Premium Developer",
         architect: "Contemporary Architect",
         delivery: "2026",
-        description: "A visionary glass masterpiece arriving in downtown Boca Raton. Highlights:
-• Only 28 exclusive, half-floor and full-floor residences
-• Seamless indoor-outdoor living
-• Incredible city views
-• Call us to secure one of the final remaining units.",
+        description: `A visionary glass masterpiece arriving in downtown Boca Raton. Highlights:
+ Only 28 exclusive, half-floor and full-floor residences
+ Seamless indoor-outdoor living
+ Incredible city views
+ Call us to secure one of the final remaining units.`,
         amenities: ["Rooftop Pool & Cabanas", "Private Automated Parking", "Golf Cart Service to Beach", "Residents-Only Dining"],
         images: [
             "https://glasshouseboca.com/wp-content/uploads/2025/07/HERO-HOME-2.png",
@@ -268,10 +268,10 @@ const projectsData = [
         developer: "Marina Developer",
         architect: "Waterfront Design",
         delivery: "Q1 2026",
-        description: "A sanctuary of unparalleled exclusivity featuring wrap-around terraces and deep water marina access. Highlights:
-• Corner flow-through residences
-• Magnificent sunrise and sunset panoramas
-• Call to confirm slip availability.",
+        description: `A sanctuary of unparalleled exclusivity featuring wrap-around terraces and deep water marina access. Highlights:
+ Corner flow-through residences
+ Magnificent sunrise and sunset panoramas
+ Call to confirm slip availability.`,
         amenities: ["Flow-through Floorplans", "Private Deep Water Dockage", "Sunset Pool Deck", "Massage Treatment Rooms"],
         images: [
             "https://bayharbortowers.com/wp-content/uploads/2024/02/Canal.jpg",
@@ -291,10 +291,10 @@ const projectsData = [
         developer: "High Rise Group",
         architect: "Italian Design Firm",
         delivery: "2027",
-        description: "Seamlessly merges high-performance automotive sleekness with tropical architecture in the core of Fort Lauderdale's Las Olas district. Highlights:
-• 10ft Floor-to-Ceiling Glass
-• Chef's Exhibition Kitchen
-• Call for our exclusive VIP viewing.",
+        description: `Seamlessly merges high-performance automotive sleekness with tropical architecture in the core of Fort Lauderdale's Las Olas district. Highlights:
+ 10ft Floor-to-Ceiling Glass
+ Chef's Exhibition Kitchen
+ Call for our exclusive VIP viewing.`,
         amenities: ["Pininfarina Curated Interiors", "10ft Floor-to-Ceiling Glass", "Two Rooftop Pools", "Chef's Exhibition Kitchen"],
         images: [
             "https://floridayimby.com/wp-content/uploads/2023/10/Related_Group-Andare-03-Hero_Night-02B-scaled.jpg",
@@ -314,10 +314,10 @@ const projectsData = [
         developer: "Riverfront Group",
         architect: "Local Architect",
         delivery: "Q1 2026",
-        description: "A boutique, luxury condominium nestled directly on the edge of the lively New River. Highlights:
-• Surrounded by historical charm
-• Steps away from prime shopping
-• Contact us for the full buyer's brochure.",
+        description: `A boutique, luxury condominium nestled directly on the edge of the lively New River. Highlights:
+ Surrounded by historical charm
+ Steps away from prime shopping
+ Contact us for the full buyer's brochure.`,
         amenities: ["Riverfront Promenade", "Resort Pool on the River", "Co-Working Suite", "Pet Spa"],
         images: [
             "https://sixthandrio.com/wp-content/uploads/2023/03/1031438580-Sixth-and-Rio-Full-Website-2023-Gallery-Renderings21-min.jpg",
@@ -337,10 +337,10 @@ const projectsData = [
         developer: "Island Developer",
         architect: "Resort Architect",
         delivery: "2027",
-        description: "Experience a curated resort lifestyle standing at the gateway of Miami, surrounded by glittering water on an exclusive island. Highlights:
-• Beach Club Equivalent Experience
-• Concierge Service
-• Call us to discuss early-bird pricing options.",
+        description: `Experience a curated resort lifestyle standing at the gateway of Miami, surrounded by glittering water on an exclusive island. Highlights:
+ Beach Club Equivalent Experience
+ Concierge Service
+ Call us to discuss early-bird pricing options.`,
         amenities: ["Beach Club Equivalent Experience", "Full Service Marina", "Olympic Length Lap Pool", "Concierge Service"],
         images: [
             "https://floridayimby.com/wp-content/uploads/2025/04/HERO-DUSK_Disclaimer-scaled.jpg",
@@ -360,11 +360,11 @@ const projectsData = [
         developer: "Bay Developer",
         architect: "Modern Architect",
         delivery: "Q3 2025",
-        description: "Beautifully integrates convenience with waterfront luxury. Highlights:
-• Spacious layouts
-• Panoramic vistas of the Miami Beach skyline
-• Built-in high-end grocery and food hall
-• Call us to tour the virtual reality model.",
+        description: `Beautifully integrates convenience with waterfront luxury. Highlights:
+ Spacious layouts
+ Panoramic vistas of the Miami Beach skyline
+ Built-in high-end grocery and food hall
+ Call us to tour the virtual reality model.`,
         amenities: ["Shoma Bazaar Food Hall", "Resident Publix Access", "Rooftop Cinema", "Lounge & Library"],
         images: [
             "https://cdn.prod.website-files.com/60be753377a701a366693799/660c3585a3dee8f8301db16d_SBA1.jpg",
@@ -384,10 +384,10 @@ const projectsData = [
         developer: "Luxury Developer",
         architect: "Global Firm",
         delivery: "2026",
-        description: "An incredibly exclusive enclave featuring interiors completely outfitted by a top Italian designer. Highlights:
-• Limited to only the most discerning buyers
-• Grand scale of living unseen anywhere else in the area
-• STRICTLY confidential. Call us for the property brief.",
+        description: `An incredibly exclusive enclave featuring interiors completely outfitted by a top Italian designer. Highlights:
+ Limited to only the most discerning buyers
+ Grand scale of living unseen anywhere else in the area
+ STRICTLY confidential. Call us for the property brief.`,
         amenities: ["FENDI Casa Finishings", "Private 4-Car Garages", "Infinity Pool overlooking Bay", "Private Yacht Charter Access"],
         images: [
             "https://floridayimby.com/wp-content/uploads/2025/12/Avenia-Interiors-by-FENDI-Casa-Lobby-scaled.jpg",
