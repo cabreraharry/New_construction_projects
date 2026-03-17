@@ -628,16 +628,14 @@ window.setCarouselImage = (index) => {
     updateCarousel();
 };
 
-// Initialize App
-document.addEventListener('DOMContentLoaded', () => {
-    renderFilters();
-    renderCards();
+// Render immediately
+renderFilters();
+renderCards();
 
-    // Mobile Menu Toggle
+// --- MOBILE MENU LOGIC ---
+document.addEventListener('DOMContentLoaded', () => {
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
-    const menuIconPath = document.getElementById('menu-icon-path');
-
     if (mobileMenuBtn && mobileMenu) {
         mobileMenuBtn.addEventListener('click', () => {
             const isHidden = mobileMenu.classList.contains('hidden');
