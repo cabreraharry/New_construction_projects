@@ -42,9 +42,9 @@ const projectsData = [
 • Call for exact unit availability and our exclusive buyer incentives.",
         amenities: ["In-Unit Car Elevator (Dezervator)", "Private Oceanfront Pool per Unit", "Cigar Lounge", "Macallan Bar"],
         images: [
-            "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1600&q=80"
+            "https://18401collinsavenue.com/wp-content/uploads/2025/06/card_building.jpg",
+            "https://18401collinsavenue.com/wp-content/uploads/2025/06/card_east_residence.jpg",
+            "https://18401collinsavenue.com/wp-content/uploads/2025/07/card_penthouse-1.jpg"
         ]
     },
     {
@@ -65,9 +65,9 @@ const projectsData = [
 • Call us immediately for first-access pricing.",
         amenities: ["Six Pools & Cabanas", "State-of-the-Art Fitness Center", "Golf Simulator", "Valet Parking"],
         images: [
-            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80"
+            "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/ABt1Hi9POOa4XKvmzjz0jSo/Oasis%20Hallandale%20-%20Broker%20Assets/Renderings/Exterior/Oasis%20Hallandale%203D%20Escale%20I.jpg?rlkey=gu24gf8wxdgspn0v0a64tgdhv&dl=1",
+            "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/AAP83RU7FDL3ZTkcX_Dws5c/Oasis%20Hallandale%20-%20Broker%20Assets/Renderings/Exterior/Oasis%20Hallandale%203D%20Escale%20II.jpg?rlkey=gu24gf8wxdgspn0v0a64tgdhv&dl=1",
+            "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/ALlx5-0FUGcjXjPivNx218c/Oasis%20Hallandale%20-%20Broker%20Assets/Renderings/Exterior/Oasis%20Hallandale%203D%20Escale%20III.jpg?rlkey=gu24gf8wxdgspn0v0a64tgdhv&dl=1"
         ]
     },
     {
@@ -88,9 +88,9 @@ const projectsData = [
 • Call to discuss remaining inventory.",
         amenities: ["Viceroy Hotel Services", "Rooftop Pool Deck", "Billiards & Game Room", "Business Center"],
         images: [
-            "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1542314831-c6a4d14eff62?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80"
+            "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/ABowoA7nJ0t8nMxh8w9iVPQ/8.%20Renderings/Hi%20Res%20Renderings/Billiard%20Lounge_Delivery.JPG?rlkey=mquo1lfk7gb3lluo2f9h9ncpg&dl=1",
+            "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/AJapXZXMgVJr5IVPk-ZiNZY/8.%20Renderings/Hi%20Res%20Renderings/Club%20Room_Delivery.JPG?rlkey=mquo1lfk7gb3lluo2f9h9ncpg&dl=1",
+            "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/AEaX1almehCNyeEpqGU0vzo/8.%20Renderings/Hi%20Res%20Renderings/Fitness.jpg?rlkey=mquo1lfk7gb3lluo2f9h9ncpg&dl=1"
         ]
     },
     {
@@ -111,9 +111,9 @@ const projectsData = [
 • Call us to secure a high-floor unit before they sell out.",
         amenities: ["Short-term Rental Approved", "Multiple Casa Tua Restaurants", "Wine Tasting Room", "Rooftop Lounge"],
         images: [
-            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
+            "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/AELUPnrhu1OD9EEu1PeKzBw/Renderings/HERO%20%26%20SKYLINE/Hero%20Daytime%20-%20ORA%20by%20Casa%20Tua.jpg?rlkey=h02to28akb2zeotrdeghg1eql&dl=1",
+            "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/ADdtGzxPPT9Sj1Mo0-fLPL8/Renderings/HERO%20%26%20SKYLINE/Hero%20Nighttime%20-%20ORA%20by%20Casa%20Tua.jpg?rlkey=h02to28akb2zeotrdeghg1eql&dl=1",
+            "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/AEew8c3ONBdG4jBpKNYHP6g/Renderings/HERO%20%26%20SKYLINE/Skyline%20Hero%20-%20ORA%20by%20Casa%20Tua.jpg?rlkey=h02to28akb2zeotrdeghg1eql&dl=1"
         ]
     },
     {
@@ -134,9 +134,9 @@ const projectsData = [
 • Call us for the verified price list and floor plans.",
         amenities: ["Mercedes-Benz Courtesy Cars", "EV Charging Stations", "Rooftop Observatory", "Wellness Spa"],
         images: [
-            "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1600&q=80"
+            "https://www.dropbox.com/scl/fo/5l8hpbn22mgdwpiho63cv/AOxuZCU61ChIc-Majv_IcfM/Renderings/1.%20Hero%20East%2C%20Mercedes%20Benz%20Places%20Miami%2C%20JDS%20Development%20Group%2C%20by%20The%20Boundary.jpg?rlkey=ctzawz2mzdzierdos0g80aeu6&dl=1",
+            "https://www.dropbox.com/scl/fo/5l8hpbn22mgdwpiho63cv/ACTZmkwiVBaDDcer1KDOGWQ/Renderings/2.%20Upshot%2C%20Mercedes%20Benz%20Places%20Miami%2C%20JDS%20Development%20Group%2C%20by%20The%20Boundary.jpg?rlkey=ctzawz2mzdzierdos0g80aeu6&dl=1",
+            "https://www.dropbox.com/scl/fo/5l8hpbn22mgdwpiho63cv/AMLPe1DmgmeOt9YC7DAmiP0/Renderings/3.%20Porte%20Cochere%2C%20Mercedes-Benz%20Places%20Miami%2C%20JDS%20Development%20Group%2C%20by%20The%20Boundary.jpg?rlkey=ctzawz2mzdzierdos0g80aeu6&dl=1"
         ]
     },
     {
@@ -158,9 +158,9 @@ const projectsData = [
 • Call us today to tour the model homes privately.",
         amenities: ["39,000 Sq Ft Clubhouse", "Indoor Basketball Court", "Pickleball & Tennis Complex", "Bistro & Bar"],
         images: [
-            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80"
+            "https://www.glhomes.com/contentassets/9bddf1b44528414eba8420de4d954eaa/loe-sumatra-grand-hero-d2.jpg",
+            "https://www.glhomes.com/contentassets/0db3f5dd1e2a48b0a7ee5a2ffdfe7377/loe-sumatra-grand-gr-k.jpg",
+            "https://www.glhomes.com/siteassets/communities/lotus-edge/custom-pages/lux-residences-boca/gallery/ultra-modern-clubhouse.jpg"
         ]
     },
     {
@@ -181,9 +181,9 @@ const projectsData = [
 • Extremely limited supply - Call us now to reserve.",
         amenities: ["Private Rooftop Plunge Pools", "Summer Kitchens", "Beach Club Access", "Private Elevator Access"],
         images: [
-            "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80"
+            "https://www.surfrowresidences.com/wp-content/uploads/2025/07/Surf-Row-1Drone-morning_4-scaled.jpg",
+            "https://www.surfrowresidences.com/wp-content/uploads/2025/07/Surf-Row_5-scaled.jpg",
+            "https://www.surfrowresidences.com/wp-content/uploads/2024/10/Surf-Row_70-scaled.jpg"
         ]
     },
     {
@@ -204,9 +204,9 @@ const projectsData = [
 • Call for exact dockage details and unit sizes.",
         amenities: ["Private Boat Slips", "Waterfront Pool Deck", "Resident Dockside Lounge", "Kids Splash Pad"],
         images: [
-            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1542314831-c6a4d14eff62?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
+            "https://labaiabayharbor.com/wp-content/uploads/2025/07/Copy-of-Bay-Harbor-PO-La-Baia_North-Tower-06-Rear_View-5000-x-4700-01-2-scaled-1.jpg",
+            "https://labaiabayharbor.com/wp-content/uploads/2025/03/Copy-of-La-Baia-North_Club-Room-Daylight-scaled.jpg",
+            "https://labaiabayharbor.com/wp-content/uploads/2025/03/Copy-of-La-Baia-North_Rooftop-Pool-scaled.jpg"
         ]
     },
     {
@@ -227,9 +227,9 @@ const projectsData = [
 • Call our team to find the perfect wellness-focused residence for you.",
         amenities: ["World-Class Wellness Spa", "Halotherapy Salt Lounge", "IV Vitamin Therapy Access", "Aromatherapy Systems"],
         images: [
-            "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80"
+            "https://i0.wp.com/www.thewellbayharbor.com/wp-content/uploads/TEA2314_KaneConcourse_S210_INT_GroundLobby_Final_2k-1.jpg?w=1600&quality=89&ssl=1",
+            "https://i0.wp.com/www.thewellbayharbor.com/wp-content/uploads/TEA2314_KaneConcourse2_S410_INT_Resi08_KitchenLiving_Final5000.jpg?w=690&quality=89&ssl=1",
+            "https://i0.wp.com/www.thewellbayharbor.com/wp-content/uploads/22.07.12_TEA2314_Kane-Concourse_Phase-2_Selects_Page_03_Image_0004.jpg?fit=1677%2C943&quality=89&ssl=1"
         ]
     },
     {
@@ -251,9 +251,9 @@ const projectsData = [
 • Call us to secure one of the final remaining units.",
         amenities: ["Rooftop Pool & Cabanas", "Private Automated Parking", "Golf Cart Service to Beach", "Residents-Only Dining"],
         images: [
-            "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?auto=format&fit=crop&w=1600&q=80"
+            "https://glasshouseboca.com/wp-content/uploads/2025/07/HERO-HOME-2.png",
+            "https://glasshouseboca.com/wp-content/uploads/2024/09/Living-Room-1.webp",
+            "https://glasshouseboca.com/wp-content/uploads/2024/09/Rooftop-Vignette.webp"
         ]
     },
     {
@@ -274,9 +274,9 @@ const projectsData = [
 • Call to confirm slip availability.",
         amenities: ["Flow-through Floorplans", "Private Deep Water Dockage", "Sunset Pool Deck", "Massage Treatment Rooms"],
         images: [
-            "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1542314831-c6a4d14eff62?auto=format&fit=crop&w=1600&q=80"
+            "https://bayharbortowers.com/wp-content/uploads/2024/02/Canal.jpg",
+            "https://bayharbortowers.com/wp-content/uploads/2024/01/BINYAN_PPG2747_BayHarborIsland_S320_EXT_HeroWater_Final_2K.jpg",
+            "https://bayharbortowers.com/wp-content/uploads/2024/03/BINYAN_PPG2747_BayHarborIsland_S100_EXT_L3GardenExperience_Final3500.jpg"
         ]
     },
     {
@@ -297,9 +297,9 @@ const projectsData = [
 • Call for our exclusive VIP viewing.",
         amenities: ["Pininfarina Curated Interiors", "10ft Floor-to-Ceiling Glass", "Two Rooftop Pools", "Chef's Exhibition Kitchen"],
         images: [
-            "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80"
+            "https://floridayimby.com/wp-content/uploads/2023/10/Related_Group-Andare-03-Hero_Night-02B-scaled.jpg",
+            "https://floridayimby.com/wp-content/uploads/2023/10/Related_Group-Andare-02-Worms_Eye_View-02-scaled.jpg",
+            "https://floridayimby.com/wp-content/uploads/2023/10/Related_Group-Andare-04-Hero_Day-02-scaled.jpg"
         ]
     },
     {
@@ -320,9 +320,9 @@ const projectsData = [
 • Contact us for the full buyer's brochure.",
         amenities: ["Riverfront Promenade", "Resort Pool on the River", "Co-Working Suite", "Pet Spa"],
         images: [
-            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?auto=format&fit=crop&w=1600&q=80"
+            "https://sixthandrio.com/wp-content/uploads/2023/03/1031438580-Sixth-and-Rio-Full-Website-2023-Gallery-Renderings21-min.jpg",
+            "https://sixthandrio.com/wp-content/uploads/2023/03/1031438580-Sixth-and-Rio-Full-Website-2023-Gallery-Renderings2-min.jpg",
+            "https://sixthandrio.com/wp-content/uploads/2023/03/1031438580-Sixth-and-Rio-Full-Website-2023-Gallery-Renderings19-min.jpg"
         ]
     },
     {
@@ -343,9 +343,9 @@ const projectsData = [
 • Call us to discuss early-bird pricing options.",
         amenities: ["Beach Club Equivalent Experience", "Full Service Marina", "Olympic Length Lap Pool", "Concierge Service"],
         images: [
-            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80"
+            "https://floridayimby.com/wp-content/uploads/2025/04/HERO-DUSK_Disclaimer-scaled.jpg",
+            "https://floridayimby.com/wp-content/uploads/2023/12/ContinuumNBV_byWNY_v1-scaled.jpg",
+            "https://floridayimby.com/wp-content/uploads/2023/12/ContinuumNBV_byWNY_v2-scaled.jpg"
         ]
     },
     {
@@ -367,9 +367,9 @@ const projectsData = [
 • Call us to tour the virtual reality model.",
         amenities: ["Shoma Bazaar Food Hall", "Resident Publix Access", "Rooftop Cinema", "Lounge & Library"],
         images: [
-            "https://images.unsplash.com/photo-1542314831-c6a4d14eff62?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80"
+            "https://cdn.prod.website-files.com/60be753377a701a366693799/660c3585a3dee8f8301db16d_SBA1.jpg",
+            "https://cdn.prod.website-files.com/60be753377a701a366693799/68ae109990191d3bbd399225_SHOMA%20NBV%20-%20POOL%20DECK%20AERIAL%20VIEW.webp",
+            "https://cdn.prod.website-files.com/60be753377a701a366693799/68ae10c913fbab3f2e4b695f_SHOMA%20NBV%20-%20LOBBY-p-3200.webp"
         ]
     },
     {
@@ -390,9 +390,9 @@ const projectsData = [
 • STRICTLY confidential. Call us for the property brief.",
         amenities: ["FENDI Casa Finishings", "Private 4-Car Garages", "Infinity Pool overlooking Bay", "Private Yacht Charter Access"],
         images: [
-            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80"
+            "https://floridayimby.com/wp-content/uploads/2025/12/Avenia-Interiors-by-FENDI-Casa-Lobby-scaled.jpg",
+            "https://floridayimby.com/wp-content/uploads/2025/12/Avenia-Interiors-by-FENDI-Casa-Lifestyle-Lounge-scaled.jpg",
+            "https://floridayimby.com/wp-content/uploads/2025/12/Avenia-Interiors-by-FENDI-Casa-Card-Room-scaled.jpg"
         ]
     }
 ];
