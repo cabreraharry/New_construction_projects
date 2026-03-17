@@ -2,37 +2,44 @@
 const projectsData = [
     {
         id: 1,
-        name: "Greenview at Presidential",
+        name: "Aventura Area Estate",
         location: "Florida",
         type: "Single Family",
         hoa: "N/A",
         contact: "Contact Agent via WhatsApp",
         startingPrice: "From $2,550,990",
         size: "4,324 - 5,828 Sq. Ft.",
-        developer: "Presidential Estates Group",
-        architect: "Stantec Architecture",
+        developer: "Exclusive Builder",
+        architect: "Renowned Firm",
         delivery: "Q4 2026",
-        description: "Greenview at Presidential presents a boutique collection of ultra-luxury single-family homes nestled within a pristine gated community. Surrounded by lush, manicured landscapes, these expansive estates redefine modern suburban living with sophisticated elegance.",
+        description: "A boutique collection of ultra-luxury single-family homes nestled within a pristine gated community. Highlights: 
+• Lush, manicured landscapes
+• Massive open layouts
+• Call us for direct floor plans and to schedule a private tour.",
         amenities: ["Gated Security", "Private Golf Course Access", "Resort-Style Club Pool", "Tennis Center"],
         images: [
-            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?auto=format&fit=crop&w=1600&q=80",
-            "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80"
+            "https://www.dropbox.com/scl/fo/0m71qnjxbqdmyszzxkd4k/AEx94veF4A0p0iFXlv1wHVA/RENDERINGS/AMENITIES/Clubhouse%20Front%20View_LR%20REV1.jpg?rlkey=hnisv6lsp5dln8a5936pwr7as&raw=1",
+            "https://www.dropbox.com/scl/fo/0m71qnjxbqdmyszzxkd4k/ALUyPpSKGjtBAObSPLloNuc/RENDERINGS/AMENITIES/Clubhouse%20Back%20View_LR%20REV1.jpg?rlkey=hnisv6lsp5dln8a5936pwr7as&raw=1",
+            "https://www.dropbox.com/scl/fo/0m71qnjxbqdmyszzxkd4k/AKXiT3TXvomGl4dbLaQ1Dhc/RENDERINGS/AMENITIES/Future%20Clubhouse%20Aerial%20View.jpg?rlkey=hnisv6lsp5dln8a5936pwr7as&raw=1"
         ]
     },
     {
         id: 2,
-        name: "Bentley Residences",
+        name: "Sunny Isles Tower 1",
         location: "Miami",
         type: "Condo",
         hoa: "$4,429-$4,742",
         contact: "Moran Schottenstein (786-508-7217)",
         startingPrice: "Contact Sales",
         size: "5,249 - 6,329 Sq. Ft.",
-        developer: "Dezer Development",
-        architect: "Sieger Suarez Architects",
+        developer: "Luxury Developer",
+        architect: "Top Tier Architect",
         delivery: "2027",
-        description: "The world's first Bentley-branded residential tower. Featuring a patented car elevator that brings vehicles directly to the residence, Bentley Residences offers an unprecedented lifestyle overlooking the Atlantic Ocean and Intracoastal waterways.",
+        description: "The world's first branded residential tower of its kind. Highlights:
+• Patented in-unit car elevator
+• Private oceanfront pools per unit
+• Unprecedented lifestyle overlooking the Atlantic Ocean
+• Call for exact unit availability and our exclusive buyer incentives.",
         amenities: ["In-Unit Car Elevator (Dezervator)", "Private Oceanfront Pool per Unit", "Cigar Lounge", "Macallan Bar"],
         images: [
             "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
@@ -42,17 +49,20 @@ const projectsData = [
     },
     {
         id: 3,
-        name: "Oasis Hallandale Beach",
+        name: "Hallandale High-Rise",
         location: "Hallandale Beach",
         type: "Condo",
         hoa: "Contact for details",
         contact: "Daria Tumanova (305-776-0148)",
         startingPrice: "From $740,230",
         size: "894 - 4,756 Sq. Ft.",
-        developer: "MGM Construction Group",
-        architect: "Arquitectonica",
+        developer: "Premier Group",
+        architect: "Award-Winning Firm",
         delivery: "Q2 2026",
-        description: "A mixed-use destination featuring twin high-rise luxury towers spanning across 10 acres of prime Hallandale real estate. The Oasis redefines city living with sweeping ocean views and unparalleled on-site dining and retail.",
+        description: "A mixed-use destination featuring twin high-rise luxury towers spanning across 10 acres of prime real estate. Highlights:
+• Sweeping ocean views
+• Unparalleled on-site dining and retail
+• Call us immediately for first-access pricing.",
         amenities: ["Six Pools & Cabanas", "State-of-the-Art Fitness Center", "Golf Simulator", "Valet Parking"],
         images: [
             "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
@@ -62,17 +72,20 @@ const projectsData = [
     },
     {
         id: 4,
-        name: "Viceroy Residences",
+        name: "Brickell Oasis Residences",
         location: "Miami Brickell",
         type: "Condo",
         hoa: "$1.50 per sq ft",
         contact: "Giselle Vergara (786-302-2925)",
         startingPrice: "From $609,900",
         size: "485 - 1,286 Sq. Ft.",
-        developer: "Related Group",
-        architect: "BMA Architects",
+        developer: "Leading Developer",
+        architect: "International Architect",
         delivery: "2026",
-        description: "Situated in the heart of Brickell, Viceroy Residences seamlessly blends the energetic atmosphere of Miamiâ€™s financial district with the refined services of a world-renowned hospitality brand. Embrace the ultimate urban oasis.",
+        description: "Situated in the heart of Brickell, seamlessly blending the energetic atmosphere of Miami’s financial district with refined hospitality services. Highlights:
+• Ultimate urban oasis
+• Resort-style rooftop
+• Call to discuss remaining inventory.",
         amenities: ["Viceroy Hotel Services", "Rooftop Pool Deck", "Billiards & Game Room", "Business Center"],
         images: [
             "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1600&q=80",
@@ -82,17 +95,20 @@ const projectsData = [
     },
     {
         id: 5,
-        name: "Ora by Casa Tua",
+        name: "Downtown Miami Suites",
         location: "Miami",
         type: "Condo",
         hoa: "Contact Sales",
         contact: "Elizabeth Garcia Mikulski",
         startingPrice: "From $900,000",
         size: "507 - 2,237 Sq. Ft.",
-        developer: "Fortune International Group",
-        architect: "Arquitectonica",
+        developer: "Boutique Developer",
+        architect: "Modern Design Firm",
         delivery: "2027",
-        description: "Curated by the famed Casa Tua brand, Ora introduces an ethos of soulful living and exquisite culinary experiences. These residences allow short-term rentals, offering a spectacular mix of luxury and extreme flexibility.",
+        description: "An ethos of soulful living and exquisite culinary experiences. Highlights:
+• Short-term rental approved (incredible ROI potential)
+• Integrated dining and lounges
+• Call us to secure a high-floor unit before they sell out.",
         amenities: ["Short-term Rental Approved", "Multiple Casa Tua Restaurants", "Wine Tasting Room", "Rooftop Lounge"],
         images: [
             "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
@@ -102,17 +118,20 @@ const projectsData = [
     },
     {
         id: 6,
-        name: "Mercedes-Benz Places",
+        name: "Brickell Signature Tower",
         location: "Miami",
         type: "Condo",
         hoa: "$1.61 - $1.65 / sq ft",
         contact: "Contact Sales Team",
         startingPrice: "From $685,500",
         size: "479 - 2,106 Sq. Ft.",
-        developer: "JDS Development Group",
-        architect: "SHoP Architects",
+        developer: "Signature Developer",
+        architect: "Global Firm",
         delivery: "2027",
-        description: "The first Mercedes-Benz branded real estate project in North America. These twin towers define the Miami skyline with aerodynamically inspired design, lushly landscaped mobility hubs, and striking silver finishes.",
+        description: "An aerodynamically inspired design defining the Miami skyline. Highlights:
+• Lushly landscaped mobility hubs
+• Striking silver finishes
+• Call us for the verified price list and floor plans.",
         amenities: ["Mercedes-Benz Courtesy Cars", "EV Charging Stations", "Rooftop Observatory", "Wellness Spa"],
         images: [
             "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80",
@@ -122,17 +141,21 @@ const projectsData = [
     },
     {
         id: 7,
-        name: "Lotus Edge",
+        name: "Boca Modern Estates",
         location: "Boca Raton",
         type: "Single Family",
         hoa: "$814 / month",
         contact: "Deysi Verona (305-419-0825)",
         startingPrice: "From $1,683,900",
         size: "3,561 - 6,934 Sq. Ft.",
-        developer: "GL Homes",
-        architect: "GL Design Build",
+        developer: "Luxury Builder",
+        architect: "Custom Design",
         delivery: "Q3 2026",
-        description: "Boca Raton's premier new ultra-modern luxury home community. Lotus Edge brings a 100% contemporary aesthetic to suburban family living with striking architecture, massive open floor plans, and a sprawling clubhouse.",
+        description: "Boca Raton's premier new ultra-modern luxury home community. Highlights:
+• 100% contemporary aesthetic
+• Massive open floor plans
+• Sprawling clubhouse
+• Call us today to tour the model homes privately.",
         amenities: ["39,000 Sq Ft Clubhouse", "Indoor Basketball Court", "Pickleball & Tennis Complex", "Bistro & Bar"],
         images: [
             "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
@@ -142,17 +165,20 @@ const projectsData = [
     },
     {
         id: 8,
-        name: "Surf Row",
+        name: "Surfside Beach Townhomes",
         location: "Miami Beach",
         type: "Townhouse",
         hoa: "Contact for Details",
         contact: "Chelsea Werner (305-586-5711)",
         startingPrice: "From $1,375,000",
         size: "1,089 - 2,004 Sq. Ft.",
-        developer: "Surf Row Development",
-        architect: "Rene Gonzalez Architects",
+        developer: "Boutique Group",
+        architect: "Renowned Designer",
         delivery: "Q4 2025",
-        description: "An ultra-boutique collection of modern, custom-crafted townhomes steps away from the sand in the exclusive Surfside neighborhood. Enjoy the privacy of a single-family home with the effortless lifestyle of a luxury condo.",
+        description: "An ultra-boutique collection of modern, custom-crafted townhomes steps away from the sand. Highlights:
+• Enjoy the privacy of a single-family home
+• High-end finishes and rooftop space
+• Extremely limited supply - Call us now to reserve.",
         amenities: ["Private Rooftop Plunge Pools", "Summer Kitchens", "Beach Club Access", "Private Elevator Access"],
         images: [
             "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
@@ -162,17 +188,20 @@ const projectsData = [
     },
     {
         id: 9,
-        name: "La Baia North",
+        name: "Bay Harbor Waterfront 1",
         location: "Bay Harbor Islands",
         type: "Condo",
         hoa: "$1.77 / sq ft",
         contact: "Limaris Vargas",
         startingPrice: "From $1,554,000",
         size: "1,450 - 2,111 Sq. Ft.",
-        developer: "Continuum Company",
-        architect: "Luis Revuelta",
+        developer: "Waterfront Developer",
+        architect: "Luxury Architect",
         delivery: "2026",
-        description: "A private waterfront harbor nestled within the exclusive, tranquil enclave of Bay Harbor Islands. These expansive residences feature spectacular glass-walls showcasing sweeping vistas of Biscayne Bay and the Atlantic Ocean.",
+        description: "A private waterfront harbor nestled within an exclusive, tranquil enclave. Highlights:
+• Expansive residences with glass walls
+• Sweeping vistas of Biscayne Bay
+• Call for exact dockage details and unit sizes.",
         amenities: ["Private Boat Slips", "Waterfront Pool Deck", "Resident Dockside Lounge", "Kids Splash Pad"],
         images: [
             "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
@@ -182,17 +211,20 @@ const projectsData = [
     },
     {
         id: 10,
-        name: "THE WELL",
+        name: "Bay Harbor Wellness Tower",
         location: "Bay Harbor Islands",
         type: "Condo",
         hoa: "$2.19 / sqft",
         contact: "Darcy Santos",
         startingPrice: "From $1,515,000",
         size: "946 - 2,293 Sq. Ft.",
-        developer: "Terra Group",
-        architect: "Arquitectonica",
+        developer: "Wellness Developer",
+        architect: "Holistic Design Firm",
         delivery: "2025",
-        description: "Designed in collaboration with the globally recognized wellness brand, THE WELL integrates holistic living directly into luxury real estate. From purified air to restorative spas, every detail is engineered for your wellbeing.",
+        description: "Integrates holistic living directly into luxury real estate. Highlights:
+• Purified air and water systems
+• Restorative spas directly in the building
+• Call our team to find the perfect wellness-focused residence for you.",
         amenities: ["World-Class Wellness Spa", "Halotherapy Salt Lounge", "IV Vitamin Therapy Access", "Aromatherapy Systems"],
         images: [
             "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80",
@@ -202,17 +234,21 @@ const projectsData = [
     },
     {
         id: 11,
-        name: "Glass House",
+        name: "Downtown Boca Glass Tower",
         location: "Boca Raton",
         type: "Condo",
         hoa: "Contact Sales",
         contact: "Bonnie Schwartz",
         startingPrice: "From $3,946,000",
         size: "3,085 - 3,685 Sq. Ft.",
-        developer: "280 E Palmetto Park Road LLC",
-        architect: "Garcia Stromberg",
+        developer: "Premium Developer",
+        architect: "Contemporary Architect",
         delivery: "2026",
-        description: "A visionary glass masterpiece arriving in downtown Boca Raton. Offering only 28 exclusive, half-floor and full-floor residences equipped with towering glass walls, seamless indoor-outdoor living, and incredible city views.",
+        description: "A visionary glass masterpiece arriving in downtown Boca Raton. Highlights:
+• Only 28 exclusive, half-floor and full-floor residences
+• Seamless indoor-outdoor living
+• Incredible city views
+• Call us to secure one of the final remaining units.",
         amenities: ["Rooftop Pool & Cabanas", "Private Automated Parking", "Golf Cart Service to Beach", "Residents-Only Dining"],
         images: [
             "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
@@ -222,17 +258,20 @@ const projectsData = [
     },
     {
         id: 12,
-        name: "Bay Harbor Towers",
+        name: "Bay Harbor Marina Residences",
         location: "Bay Harbor Islands",
         type: "Condo",
         hoa: "$1.56 / sq ft",
         contact: "Contact Sales Team",
         startingPrice: "From $4,504,000",
         size: "2,815 - 4,587 Sq. Ft.",
-        developer: "PPG Development",
-        architect: "Kobi Karp",
+        developer: "Marina Developer",
+        architect: "Waterfront Design",
         delivery: "Q1 2026",
-        description: "A sanctuary of unparalleled exclusivity featuring wrap-around terraces and deep water marina access. Every home is a corner flow-through residence capturing magnificent sunrise and sunset panoramas.",
+        description: "A sanctuary of unparalleled exclusivity featuring wrap-around terraces and deep water marina access. Highlights:
+• Corner flow-through residences
+• Magnificent sunrise and sunset panoramas
+• Call to confirm slip availability.",
         amenities: ["Flow-through Floorplans", "Private Deep Water Dockage", "Sunset Pool Deck", "Massage Treatment Rooms"],
         images: [
             "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
@@ -242,17 +281,20 @@ const projectsData = [
     },
     {
         id: 13,
-        name: "Andare by Pininfarina",
+        name: "Las Olas Signature High Rise",
         location: "Las Olas",
         type: "Condo",
         hoa: "$1.50 / sq ft",
         contact: "Gigi Giusti",
         startingPrice: "From $2,216,900",
         size: "1,816 - 6,235 Sq. Ft.",
-        developer: "Related Group",
-        architect: "Pininfarina",
+        developer: "High Rise Group",
+        architect: "Italian Design Firm",
         delivery: "2027",
-        description: "Branded and fully styled by the legendary Italian design firm Pininfarina, this high-rise in the core of Fort Lauderdale's Las Olas district seamlessly merges high-performance automotive sleekness with tropical architecture.",
+        description: "Seamlessly merges high-performance automotive sleekness with tropical architecture in the core of Fort Lauderdale's Las Olas district. Highlights:
+• 10ft Floor-to-Ceiling Glass
+• Chef's Exhibition Kitchen
+• Call for our exclusive VIP viewing.",
         amenities: ["Pininfarina Curated Interiors", "10ft Floor-to-Ceiling Glass", "Two Rooftop Pools", "Chef's Exhibition Kitchen"],
         images: [
             "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1600&q=80",
@@ -262,17 +304,20 @@ const projectsData = [
     },
     {
         id: 14,
-        name: "Sixth & Rio",
+        name: "Fort Lauderdale Riverfront",
         location: "Fort Lauderdale",
         type: "Condo",
         hoa: "$1.16 / sq ft",
         contact: "Brett Perry",
         startingPrice: "From $799,000",
         size: "742 - 2,296 Sq. Ft.",
-        developer: "OceanLand Investments",
-        architect: "FSMY Architects",
+        developer: "Riverfront Group",
+        architect: "Local Architect",
         delivery: "Q1 2026",
-        description: "A boutique, luxury condominium nestled directly on the edge of Fort Lauderdale's lively New River. Surrounded by historical charm and steps away from Las Olas Boulevard's finest shopping.",
+        description: "A boutique, luxury condominium nestled directly on the edge of the lively New River. Highlights:
+• Surrounded by historical charm
+• Steps away from prime shopping
+• Contact us for the full buyer's brochure.",
         amenities: ["Riverfront Promenade", "Resort Pool on the River", "Co-Working Suite", "Pet Spa"],
         images: [
             "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
@@ -282,17 +327,20 @@ const projectsData = [
     },
     {
         id: 15,
-        name: "Continuum Club",
+        name: "North Bay Village Estates",
         location: "North Bay Village",
         type: "Condo",
         hoa: "$1.77 / SQ FT",
         contact: "Marla Cohen",
         startingPrice: "From $1,771,000",
         size: "Contact for details",
-        developer: "Continuum Company",
-        architect: "Arquitectonica",
+        developer: "Island Developer",
+        architect: "Resort Architect",
         delivery: "2027",
-        description: "Extending the fabled Continuum legacy from South Beach to North Bay Village. Experience a curated resort lifestyle standing at the gateway of Miami, surrounded glittering water on an exclusive island.",
+        description: "Experience a curated resort lifestyle standing at the gateway of Miami, surrounded by glittering water on an exclusive island. Highlights:
+• Beach Club Equivalent Experience
+• Concierge Service
+• Call us to discuss early-bird pricing options.",
         amenities: ["Beach Club Equivalent Experience", "Full Service Marina", "Olympic Length Lap Pool", "Concierge Service"],
         images: [
             "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
@@ -302,17 +350,21 @@ const projectsData = [
     },
     {
         id: 16,
-        name: "Shoma Bay",
+        name: "North Bay Village Waterfront",
         location: "North Bay Village",
         type: "Condo",
         hoa: "$1.60 / sq Ft",
         contact: "Contact Sales Team",
         startingPrice: "From $941,000",
         size: "750 - 3,645 Sq. Ft.",
-        developer: "Shoma Group",
-        architect: "MSA Architects",
+        developer: "Bay Developer",
+        architect: "Modern Architect",
         delivery: "Q3 2025",
-        description: "Anchored by Shoma Bazaar and a sweeping Publix supermarket, Shoma Bay beautifully integrates convenience with waterfront luxury. Offering spacious layouts and panoramic vistas of Miami Beach skyline.",
+        description: "Beautifully integrates convenience with waterfront luxury. Highlights:
+• Spacious layouts
+• Panoramic vistas of the Miami Beach skyline
+• Built-in high-end grocery and food hall
+• Call us to tour the virtual reality model.",
         amenities: ["Shoma Bazaar Food Hall", "Resident Publix Access", "Rooftop Cinema", "Lounge & Library"],
         images: [
             "https://images.unsplash.com/photo-1542314831-c6a4d14eff62?auto=format&fit=crop&w=1600&q=80",
@@ -322,17 +374,20 @@ const projectsData = [
     },
     {
         id: 17,
-        name: "Avenia FENDI Casa",
+        name: "Aventura Ultra Luxury",
         location: "Aventura",
         type: "Condo",
         hoa: "Contact for details",
         contact: "Cindy Orlinsky",
         startingPrice: "From $5,450,000",
         size: "3,494 - 3,505 Sq. Ft.",
-        developer: "Aventura Development Group",
-        architect: "Kobi Karp",
+        developer: "Luxury Developer",
+        architect: "Global Firm",
         delivery: "2026",
-        description: "An incredibly exclusive enclave featuring interiors completely outfitted by FENDI Casa. Limited to only the most discerning buyers, Avenia provides a grand scale of living unseen anywhere else in Aventura.",
+        description: "An incredibly exclusive enclave featuring interiors completely outfitted by a top Italian designer. Highlights:
+• Limited to only the most discerning buyers
+• Grand scale of living unseen anywhere else in the area
+• STRICTLY confidential. Call us for the property brief.",
         amenities: ["FENDI Casa Finishings", "Private 4-Car Garages", "Infinity Pool overlooking Bay", "Private Yacht Charter Access"],
         images: [
             "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
