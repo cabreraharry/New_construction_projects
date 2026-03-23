@@ -2,7 +2,8 @@
 const projectsData = [
     {
         id: 1,
-        name: "Aventura Area Estate",
+        name: "Greenview at Presidential",
+        commission: "",
         location: "Florida",
         type: "Single Family",
         hoa: "N/A",
@@ -25,7 +26,8 @@ const projectsData = [
     },
     {
         id: 2,
-        name: "Sunny Isles Tower 1",
+        name: "Bentley Residences in Miami",
+        commission: "5%",
         location: "Miami",
         type: "Condo",
         hoa: "$4,429-$4,742",
@@ -45,11 +47,30 @@ const projectsData = [
             "https://18401collinsavenue.com/wp-content/uploads/2025/06/card_building.jpg",
             "https://18401collinsavenue.com/wp-content/uploads/2025/06/card_east_residence.jpg",
             "https://18401collinsavenue.com/wp-content/uploads/2025/07/card_penthouse-1.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the floor plans and renderings",
+                                "url": "https://18401collinsavenue.com/#floorplans"
+                    },
+                    {
+                                "title": "Click here for the Fact Sheet",
+                                "url": "https://drive.google.com/file/d/1-mgW7rmKCiyIwl8I01w2BvZCeo0hKl3k/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here for the Email from Moran Schottenstein",
+                                "url": "https://drive.google.com/file/d/1xpwn9nfzzWZ9L0y03XPZjxJ_cw90p9dz/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here for the Floor Plans",
+                                "url": "https://drive.google.com/file/d/1jI0SF9aOAN07NY1b36ws0aecAZUO5nFu/view?usp=sharing"
+                    }
         ]
     },
     {
         id: 3,
-        name: "Hallandale High-Rise",
+        name: "Oasis Hallandale Beach",
+        commission: "6%",
         location: "Hallandale Beach",
         type: "Condo",
         hoa: "Contact for details",
@@ -68,11 +89,34 @@ const projectsData = [
             "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/ABt1Hi9POOa4XKvmzjz0jSo/Oasis%20Hallandale%20-%20Broker%20Assets/Renderings/Exterior/Oasis%20Hallandale%203D%20Escale%20I.jpg?rlkey=gu24gf8wxdgspn0v0a64tgdhv&dl=1",
             "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/AAP83RU7FDL3ZTkcX_Dws5c/Oasis%20Hallandale%20-%20Broker%20Assets/Renderings/Exterior/Oasis%20Hallandale%203D%20Escale%20II.jpg?rlkey=gu24gf8wxdgspn0v0a64tgdhv&dl=1",
             "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/ALlx5-0FUGcjXjPivNx218c/Oasis%20Hallandale%20-%20Broker%20Assets/Renderings/Exterior/Oasis%20Hallandale%203D%20Escale%20III.jpg?rlkey=gu24gf8wxdgspn0v0a64tgdhv&dl=1"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/AAQUJqy0AiE7OsnB1kWH97E/Oasis%20Hallandale%20-%20Broker%20Assets?dl=0&rlkey=gu24gf8wxdgspn0v0a64tgdhv&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here for commission details",
+                                "url": "https://www.dropbox.com/scl/fo/mwv8m1mwsqdsnwm9d8o4a/AFLgWQNalnQK6Sn7PVoDENw/Oasis%20Hallandale%20-%20Broker%20Assets/Sales%20Forms?dl=0&preview=Commission+Structure.pdf&rlkey=gu24gf8wxdgspn0v0a64tgdhv&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "East Residences Inventory",
+                                "url": "https://drive.google.com/file/d/1GtK0fBt6P_NihYoxrjlthayk98vFdgzT/view?usp=sharing"
+                    },
+                    {
+                                "title": "West Tower Inventory",
+                                "url": "https://drive.google.com/file/d/1KYMieH5sbKKUnJt54K8syVBv1G5NKjZe/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here to see the email from Daria Tumanova",
+                                "url": "https://drive.google.com/file/d/1OZ9aC9dUrqp-wDjaRqHhhvgYT9zA7A-t/view?usp=sharing"
+                    }
         ]
     },
     {
         id: 4,
-        name: "Brickell Oasis Residences",
+        name: "Viceroy Brickell Residences",
+        commission: "7%",
         location: "Miami Brickell",
         type: "Condo",
         hoa: "$1.50 per sq ft",
@@ -91,11 +135,30 @@ const projectsData = [
             "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/ABowoA7nJ0t8nMxh8w9iVPQ/8.%20Renderings/Hi%20Res%20Renderings/Billiard%20Lounge_Delivery.JPG?rlkey=mquo1lfk7gb3lluo2f9h9ncpg&dl=1",
             "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/AJapXZXMgVJr5IVPk-ZiNZY/8.%20Renderings/Hi%20Res%20Renderings/Club%20Room_Delivery.JPG?rlkey=mquo1lfk7gb3lluo2f9h9ncpg&dl=1",
             "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/AEaX1almehCNyeEpqGU0vzo/8.%20Renderings/Hi%20Res%20Renderings/Fitness.jpg?rlkey=mquo1lfk7gb3lluo2f9h9ncpg&dl=1"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/nu4qzeazadh6qza2yucl8/AKT7X9ssZF9i0hUuDr3KlS0?dl=0&rlkey=mquo1lfk7gb3lluo2f9h9ncpg"
+                    },
+                    {
+                                "title": "Click here for the Inventory list",
+                                "url": "https://drive.google.com/drive/folders/1k620qeqhgR4bbLexanlO79Ox06blrNn7?usp=sharing"
+                    },
+                    {
+                                "title": "Click here to see the important details",
+                                "url": "https://drive.google.com/file/d/1ZIwFrTA6d28kVElD5F9OiENQ75QZgziT/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here to see the email from Giselle Vergara",
+                                "url": "https://drive.google.com/file/d/1WQ_rowJh3RALpRSFKIydYnbAhN-oS_zn/view?usp=sharing"
+                    }
         ]
     },
     {
         id: 5,
-        name: "Downtown Miami Suites",
+        name: "Ora by Casa Tua",
+        commission: "6%",
         location: "Miami",
         type: "Condo",
         hoa: "Contact Sales",
@@ -114,11 +177,30 @@ const projectsData = [
             "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/AELUPnrhu1OD9EEu1PeKzBw/Renderings/HERO%20%26%20SKYLINE/Hero%20Daytime%20-%20ORA%20by%20Casa%20Tua.jpg?rlkey=h02to28akb2zeotrdeghg1eql&dl=1",
             "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/ADdtGzxPPT9Sj1Mo0-fLPL8/Renderings/HERO%20%26%20SKYLINE/Hero%20Nighttime%20-%20ORA%20by%20Casa%20Tua.jpg?rlkey=h02to28akb2zeotrdeghg1eql&dl=1",
             "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/AEew8c3ONBdG4jBpKNYHP6g/Renderings/HERO%20%26%20SKYLINE/Skyline%20Hero%20-%20ORA%20by%20Casa%20Tua.jpg?rlkey=h02to28akb2zeotrdeghg1eql&dl=1"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/cefldg7lub10uaeilbsjj/ACekyHUTHDBka_zWuYPDVgs?dl=0&rlkey=h02to28akb2zeotrdeghg1eql"
+                    },
+                    {
+                                "title": "Click here for the Inventory / Price range",
+                                "url": "https://drive.google.com/file/d/1H2JJTzIYdfxA_lOxzJsJ3xQs25Tlbnrr/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here to see the other details",
+                                "url": "https://docs.google.com/document/d/1BKcDQqVqtidNTxDqH7Q6hYPMxeiRjAuI/edit?usp=sharing&ouid=113220421871698610327&rtpof=true&sd=true"
+                    },
+                    {
+                                "title": "Click here to see the Email from Elizabeth Mikulski",
+                                "url": "https://drive.google.com/file/d/1BL3KCEcW41uK2aKtNcxsKqX5O_nzWWDD/view?usp=sharing"
+                    }
         ]
     },
     {
         id: 6,
-        name: "Brickell Signature Tower",
+        name: "Mercedes-Benz Places Miami",
+        commission: "6%",
         location: "Miami",
         type: "Condo",
         hoa: "$1.61 - $1.65 / sq ft",
@@ -137,11 +219,30 @@ const projectsData = [
             "https://www.dropbox.com/scl/fo/5l8hpbn22mgdwpiho63cv/AOxuZCU61ChIc-Majv_IcfM/Renderings/1.%20Hero%20East%2C%20Mercedes%20Benz%20Places%20Miami%2C%20JDS%20Development%20Group%2C%20by%20The%20Boundary.jpg?rlkey=ctzawz2mzdzierdos0g80aeu6&dl=1",
             "https://www.dropbox.com/scl/fo/5l8hpbn22mgdwpiho63cv/ACTZmkwiVBaDDcer1KDOGWQ/Renderings/2.%20Upshot%2C%20Mercedes%20Benz%20Places%20Miami%2C%20JDS%20Development%20Group%2C%20by%20The%20Boundary.jpg?rlkey=ctzawz2mzdzierdos0g80aeu6&dl=1",
             "https://www.dropbox.com/scl/fo/5l8hpbn22mgdwpiho63cv/AMLPe1DmgmeOt9YC7DAmiP0/Renderings/3.%20Porte%20Cochere%2C%20Mercedes-Benz%20Places%20Miami%2C%20JDS%20Development%20Group%2C%20by%20The%20Boundary.jpg?rlkey=ctzawz2mzdzierdos0g80aeu6&dl=1"
+        ],
+        resources: [
+                    {
+                                "title": "Mercedes-Benz Places Miami Dropbox",
+                                "url": "http://sparkmail.miami.mercedesbenzplaces.com/c/eJwczMttAyEQANBq4OYVM4ANBw65bBsRn7F2ZLARsI6c6iOlgVcCaGe1lxTgdlMajXNeUotcv7kEcMY7MPIINhtvtb9FuAOUgjrlq0tYyOm7g6gkB1R4VagsKmuM33RWGghy0kQKshNGNY6Nt0YjU6GZ6Pnba8w0t_xqsoZjrS70l8Bd4D5pHPG5tjd3gXtLvaXzQ2PKER4_XCvHNoVR5-yDGw2KdX3-nRXgMl_nOiYXuvQ4HvId8C8AAP__kRtJBQ"
+                    },
+                    {
+                                "title": "Mercedes-Benz Places Brickell",
+                                "url": "https://docs.google.com/document/d/1Om72qKIkBzb2Ui2OeTtrMVZa8qFggPnb/edit?usp=sharing&ouid=113220421871698610327&rtpof=true&sd=true"
+                    },
+                    {
+                                "title": "Click here for MBPM - Availability - T1 &amp; T2 - 01-01-26",
+                                "url": "https://drive.google.com/file/d/12r348Bz0wDgVipGPTZWQP-aIivAVjIWT/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://drive.google.com/file/d/1PSdzKYeu1NXQ48aN-_cajGFs_iK6I2_K/view?usp=sharing",
+                                "url": "https://drive.google.com/file/d/1PSdzKYeu1NXQ48aN-_cajGFs_iK6I2_K/view?usp=sharing"
+                    }
         ]
     },
     {
         id: 7,
-        name: "Boca Modern Estates",
+        name: "Lotus Edge Community",
+        commission: "3%",
         location: "Boca Raton",
         type: "Single Family",
         hoa: "$814 / month",
@@ -161,11 +262,86 @@ const projectsData = [
             "https://www.glhomes.com/contentassets/9bddf1b44528414eba8420de4d954eaa/loe-sumatra-grand-hero-d2.jpg",
             "https://www.glhomes.com/contentassets/0db3f5dd1e2a48b0a7ee5a2ffdfe7377/loe-sumatra-grand-gr-k.jpg",
             "https://www.glhomes.com/siteassets/communities/lotus-edge/custom-pages/lux-residences-boca/gallery/ultra-modern-clubhouse.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/"
+                    },
+                    {
+                                "title": "https://www.glhomes.com/lotus-edge/lifestyle/",
+                                "url": "https://www.glhomes.com/lotus-edge/lifestyle/"
+                    },
+                    {
+                                "title": "Notes: Email forwarded by Orly(Realtor) Feb 5 2:48pm",
+                                "url": "https://drive.google.com/file/d/1WIguFDeHme51BLEaCckmWx6GpFLEde17/view?usp=sharing"
+                    },
+                    {
+                                "title": "BERMUDA / 501",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/bermuda-501"
+                    },
+                    {
+                                "title": "SAMOA / 50",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/samoa-50"
+                    },
+                    {
+                                "title": "HONOLULU / 59",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/honolulu-59"
+                    },
+                    {
+                                "title": "MARIANA / 57",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/mariana-57"
+                    },
+                    {
+                                "title": "CAPRI / 503",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/capri-503"
+                    },
+                    {
+                                "title": "MALLORCA / 515",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/mallorca-515"
+                    },
+                    {
+                                "title": "POLYNESIA / 56",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/polynesia-56"
+                    },
+                    {
+                                "title": "CORSICA / 508",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/corsica-508"
+                    },
+                    {
+                                "title": "SANTO GRAND / 621",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/santo-grand-621"
+                    },
+                    {
+                                "title": "PACIFICA / 66",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/pacifica-66"
+                    },
+                    {
+                                "title": "LAGUNA / 67",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/laguna-67"
+                    },
+                    {
+                                "title": "SUMATRA GRAND / 622",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/sumatra-grand-622"
+                    },
+                    {
+                                "title": "MALDIVES / 64",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/maldives-64"
+                    },
+                    {
+                                "title": "SANTORINI / 624",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/santorini-624"
+                    },
+                    {
+                                "title": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/clubhouse",
+                                "url": "https://gl-homes.foleon.com/lotus-edge/lotus-edge-digital-brochure/clubhouse"
+                    }
         ]
     },
     {
         id: 8,
-        name: "Surfside Beach Townhomes",
+        name: "Surf Row Residences",
+        commission: "5%",
         location: "Miami Beach",
         type: "Townhouse",
         hoa: "Contact for Details",
@@ -184,11 +360,30 @@ const projectsData = [
             "https://www.surfrowresidences.com/wp-content/uploads/2025/07/Surf-Row-1Drone-morning_4-scaled.jpg",
             "https://www.surfrowresidences.com/wp-content/uploads/2025/07/Surf-Row_5-scaled.jpg",
             "https://www.surfrowresidences.com/wp-content/uploads/2024/10/Surf-Row_70-scaled.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/xh3secrc4ct263lb5igmo/AA5YASTMQDY87MTZ8vGPMwQ?rlkey=jjj6i7bquckfrmxzlxcz5kzqw&amp;e=1&amp;st=zozxofhx&amp;dl=0",
+                                "url": "https://www.dropbox.com/scl/fo/xh3secrc4ct263lb5igmo/AA5YASTMQDY87MTZ8vGPMwQ?rlkey=jjj6i7bquckfrmxzlxcz5kzqw&e=1&st=zozxofhx&dl=0"
+                    },
+                    {
+                                "title": "https://drive.google.com/file/d/1tjfpK1LJ5dvaqyVwz5O6SGlVuLT9Qgw8/view?usp=sharing",
+                                "url": "https://drive.google.com/file/d/1tjfpK1LJ5dvaqyVwz5O6SGlVuLT9Qgw8/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://drive.google.com/file/d/15crERxu--Gn8MRYw8OYuToM23pTVXmT6/view?usp=sharing",
+                                "url": "https://drive.google.com/file/d/15crERxu--Gn8MRYw8OYuToM23pTVXmT6/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/xh3secrc4ct263lb5igmo/AMZuC2BTl0c_HV0J_GeuSrw/Fact%20Sheet?dl=0&amp;preview=Surf+Row+Fact+Sheet+-+English.pdf&amp;rlkey=jjj6i7bquckfrmxzlxcz5kzqw&amp;subfolder_nav_tracking=1",
+                                "url": "https://www.dropbox.com/scl/fo/xh3secrc4ct263lb5igmo/AMZuC2BTl0c_HV0J_GeuSrw/Fact%20Sheet?dl=0&preview=Surf+Row+Fact+Sheet+-+English.pdf&rlkey=jjj6i7bquckfrmxzlxcz5kzqw&subfolder_nav_tracking=1"
+                    }
         ]
     },
     {
         id: 9,
-        name: "Bay Harbor Waterfront 1",
+        name: "La Baia North",
+        commission: "7% plus bonus $25,000",
         location: "Bay Harbor Islands",
         type: "Condo",
         hoa: "$1.77 / sq ft",
@@ -207,11 +402,74 @@ const projectsData = [
             "https://labaiabayharbor.com/wp-content/uploads/2025/07/Copy-of-Bay-Harbor-PO-La-Baia_North-Tower-06-Rear_View-5000-x-4700-01-2-scaled-1.jpg",
             "https://labaiabayharbor.com/wp-content/uploads/2025/03/Copy-of-La-Baia-North_Club-Room-Daylight-scaled.jpg",
             "https://labaiabayharbor.com/wp-content/uploads/2025/03/Copy-of-La-Baia-North_Rooftop-Pool-scaled.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fi/s4xqelkpa0wyry7abved6/La-Baia-North_Fact-Sheet-FP_Digital-ENG.pdf?rlkey=u4yb2a3t1j6mk28i95jmpqoqa&e=1&st=qrv3y5w2&dl=0"
+                    },
+                    {
+                                "title": "Click here for the Inventory / Price range",
+                                "url": "https://www.dropbox.com/scl/fi/je49n2062qo5sygjc9b8b/La-Baia-North_Availability__ENG.pdf?rlkey=pa6b29cc9ddfvj8wqf0qpguge&e=2&st=avtv57nd&dl=0"
+                    },
+                    {
+                                "title": "Click here to see the email from Limaris",
+                                "url": "https://drive.google.com/file/d/1fRt1dX6JER8S-p7_sLMMXDg_9HYT2Y9U/view?usp=sharing"
+                    },
+                    {
+                                "title": "VIDEO",
+                                "url": "https://www.dropbox.com/scl/fi/s16m6w8r5feue5c24cjr7/La-Baia-North-10-Minute-Island-Community.mp4?rlkey=oxiykq943v1sbvhnhbwp2tj6u&e=2&st=2nssd26j&dl=0"
+                    },
+                    {
+                                "title": "Amenities",
+                                "url": "https://www.dropbox.com/scl/fo/3scxct1d5earsl31cwklw/AB9Vl7Nlav9DqmV1OazsV4A?rlkey=8kqkuj7lc3k5v345652dhijwv&e=1&st=86l5cfry&dl=0"
+                    },
+                    {
+                                "title": "Exterior",
+                                "url": "https://www.dropbox.com/scl/fo/9mvmscwedk61eqdmhgvcq/AFZzS_XacKXYySdJBJdmlig?rlkey=hqygdttqwgndyjj3gqknjk1tc&st=858jcvvq&dl=0"
+                    },
+                    {
+                                "title": "Interior",
+                                "url": "https://www.dropbox.com/scl/fo/bszmu89v3jeu85gpi4pr3/ACQelSowN92SHFD6zh2PAP4?rlkey=pbi5vchezud695y70pboc6xd6&st=tm2m5gxo&dl=0"
+                    },
+                    {
+                                "title": "Fact Sheet",
+                                "url": "https://www.dropbox.com/scl/fi/s4xqelkpa0wyry7abved6/La-Baia-North_Fact-Sheet-FP_Digital-ENG.pdf?rlkey=u4yb2a3t1j6mk28i95jmpqoqa&st=qrv3y5w2&dl=0"
+                    },
+                    {
+                                "title": "Available Residences",
+                                "url": "https://www.dropbox.com/scl/fi/je49n2062qo5sygjc9b8b/La-Baia-North_Availability__ENG.pdf?rlkey=pa6b29cc9ddfvj8wqf0qpguge&e=1&st=avtv57nd&dl=0"
+                    },
+                    {
+                                "title": "2BD/2.5BA/DEN - Floor Plan 302",
+                                "url": "https://www.dropbox.com/scl/fi/ft9ctcetuxkhrahpnbnnx/La-Baia-North_Floor-Plan_302.pdf?rlkey=xmipvtr1z4ezrlmv6o1huqf33&e=1&st=yoaru4xu&dl=0"
+                    },
+                    {
+                                "title": "2BD/2.5BA/DEN - Floor Plan 602",
+                                "url": "https://www.dropbox.com/scl/fi/rkagoj9p0akucstfrmmax/LaBaiaNorth_Residence-02.pdf?rlkey=mgl8mr20hdi3iq9e1prplnm0b&e=1&st=be0eynkv&dl=0"
+                    },
+                    {
+                                "title": "3BD/4BA/DEN - Floor Plan 403",
+                                "url": "https://www.dropbox.com/scl/fi/r1xlig5iuhgy6u18n9jug/La-Baia-North_Floor-Plan_403.pdf?rlkey=9zynwm4xtmif06wqjg2l1vry4&e=1&st=bc7s2ru0&dl=0"
+                    },
+                    {
+                                "title": "3BD/4BA/DEN - Floor Plan 607",
+                                "url": "https://www.dropbox.com/scl/fi/cpxesmsjhmrhn2dtpzs1x/La-Baia-North_Floor-Plan_607.pdf?rlkey=wdr6wfax2hn5vhz6bm0bky2qi&e=1&st=14svb88r&dl=0"
+                    },
+                    {
+                                "title": "4BD/4.5BA - Floor Plan 609",
+                                "url": "https://www.dropbox.com/scl/fi/4kuim4uipnxwza4c0ia0m/La-Baia-North_Floor-Plan_609.pdf?rlkey=3vr38jawt3sa6ded2wpiq79zn&e=1&st=3j9ebxl8&dl=0"
+                    },
+                    {
+                                "title": "4BD/4.5BA - Floor Plan LPH01",
+                                "url": "https://www.dropbox.com/scl/fi/xt06nd0agwxiqqrcuu1rp/LaBaiaNorth_LPH-01.pdf?rlkey=0q54mbce4bk78mlmvliall09j&e=1&st=pwh6vrrz&dl=0"
+                    }
         ]
     },
     {
         id: 10,
-        name: "Bay Harbor Wellness Tower",
+        name: "THE WELL Bay Harbor Islands",
+        commission: "6%",
         location: "Bay Harbor Islands",
         type: "Condo",
         hoa: "$2.19 / sqft",
@@ -230,11 +488,42 @@ const projectsData = [
             "https://i0.wp.com/www.thewellbayharbor.com/wp-content/uploads/TEA2314_KaneConcourse_S210_INT_GroundLobby_Final_2k-1.jpg?w=1600&quality=89&ssl=1",
             "https://i0.wp.com/www.thewellbayharbor.com/wp-content/uploads/TEA2314_KaneConcourse2_S410_INT_Resi08_KitchenLiving_Final5000.jpg?w=690&quality=89&ssl=1",
             "https://i0.wp.com/www.thewellbayharbor.com/wp-content/uploads/22.07.12_TEA2314_Kane-Concourse_Phase-2_Selects_Page_03_Image_0004.jpg?fit=1677%2C943&quality=89&ssl=1"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/prtkj22iy0fy1ank7hosf/h?rlkey=rmlr8uwcutqg39vtqi8m8c7mj&e=1&st=08ma89sx&dl=0"
+                    },
+                    {
+                                "title": "Click here for the Inventory / Price range",
+                                "url": "https://docs.google.com/spreadsheets/d/1A-9pRIVWCWkYN3JysAbwSLPhQ8fSJHhu/edit?usp=sharing&ouid=113220421871698610327&rtpof=true&sd=true"
+                    },
+                    {
+                                "title": "Click here to see the email from Darcy Santos",
+                                "url": "https://drive.google.com/file/d/1KulF5Am96fPDHEkx9KFtTGRXbG2t0rc7/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/prtkj22iy0fy1ank7hosf/h/Presentation?dl=0&amp;preview=THEWELL_BHI-SalesPresentation_Unbranded.pdf&amp;subfolder_nav_tracking=1",
+                                "url": "https://www.dropbox.com/scl/fo/prtkj22iy0fy1ank7hosf/h/Presentation?dl=0&preview=THEWELL_BHI-SalesPresentation_Unbranded.pdf&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here for THE WELL Renderings",
+                                "url": "https://www.dropbox.com/scl/fo/prtkj22iy0fy1ank7hosf/h/The%20Well%20Renderings/THE%20WELL%20Renderings?dl=0&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here for Unbranded Brochure",
+                                "url": "https://www.dropbox.com/scl/fo/prtkj22iy0fy1ank7hosf/h/Unbranded%20Brochure?dl=0&preview=THEWELL-TemporaryBook_Unbranded.pdf&rlkey=rmlr8uwcutqg39vtqi8m8c7mj"
+                    },
+                    {
+                                "title": "Click here for Presentation",
+                                "url": "https://www.dropbox.com/scl/fo/prtkj22iy0fy1ank7hosf/h/Presentation?dl=0&preview=THEWELL_BHI-SalesPresentation_Unbranded.pdf&rlkey=rmlr8uwcutqg39vtqi8m8c7mj"
+                    }
         ]
     },
     {
         id: 11,
-        name: "Downtown Boca Glass Tower",
+        name: "Glass House Boca Raton",
+        commission: "3%",
         location: "Boca Raton",
         type: "Condo",
         hoa: "Contact Sales",
@@ -254,11 +543,46 @@ const projectsData = [
             "https://glasshouseboca.com/wp-content/uploads/2025/07/HERO-HOME-2.png",
             "https://glasshouseboca.com/wp-content/uploads/2024/09/Living-Room-1.webp",
             "https://glasshouseboca.com/wp-content/uploads/2024/09/Rooftop-Vignette.webp"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/AOIPUDsnpERN_uSLa_yUcSI?rlkey=pnvo04tm44dhdrms5mvnhjyfj&e=1&st=0xg6gygn&dl=0"
+                    },
+                    {
+                                "title": "Click here for the Inventory / Price range",
+                                "url": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/AKPaaZ3X_HFrv5TD77LFCmg/Availability%20List?dl=0&preview=GlassHouseAvailabilityList+Feb26+Unbranded.pdf&rlkey=pnvo04tm44dhdrms5mvnhjyfj&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Link of forwarded email (CLICK HERE)",
+                                "url": "https://drive.google.com/file/d/1kg5MjaVTN94xDC0H34t5tyFUS_YueXqY/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here for Renderings",
+                                "url": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/AHz3Ah5CkEvn0UXNKUdPrhw/Renderings/_Final?dl=0&rlkey=pnvo04tm44dhdrms5mvnhjyfj&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here for Fact Sheet",
+                                "url": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/AFYXy5Sq6M7Vz0oR08WLmAU/Fact%20Sheet?dl=0&preview=35085_GlassHouse_FactSheet_UNBRANDED_INT.pdf&rlkey=pnvo04tm44dhdrms5mvnhjyfj&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here for Marketing Floor Plans",
+                                "url": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/ADXV0akQBpJH0Ae5VFW5fzM/Marketing%20Floor%20Plans?dl=0&rlkey=pnvo04tm44dhdrms5mvnhjyfj&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here for Sales Presentation",
+                                "url": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/AP7uyP3hDsDxQnIQ1D2zJiI/Sales%20Presentation?dl=0&preview=34768_GlassHouse_E-SalesPresentation_Unbranded.pdf&rlkey=pnvo04tm44dhdrms5mvnhjyfj"
+                    },
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/AFYXy5Sq6M7Vz0oR08WLmAU/Fact%20Sheet?dl=0&amp;preview=35085_GlassHouse_FactSheet_UNBRANDED_INT.pdf&amp;rlkey=pnvo04tm44dhdrms5mvnhjyfj&amp;subfolder_nav_tracking=1",
+                                "url": "https://www.dropbox.com/scl/fo/jiu7t1i3a7z9xwznhjkbr/AFYXy5Sq6M7Vz0oR08WLmAU/Fact%20Sheet?dl=0&preview=35085_GlassHouse_FactSheet_UNBRANDED_INT.pdf&rlkey=pnvo04tm44dhdrms5mvnhjyfj&subfolder_nav_tracking=1"
+                    }
         ]
     },
     {
         id: 12,
-        name: "Bay Harbor Marina Residences",
+        name: "Bay Harbor Towers",
+        commission: "7%",
         location: "Bay Harbor Islands",
         type: "Condo",
         hoa: "$1.56 / sq ft",
@@ -277,11 +601,30 @@ const projectsData = [
             "https://bayharbortowers.com/wp-content/uploads/2024/02/Canal.jpg",
             "https://bayharbortowers.com/wp-content/uploads/2024/01/BINYAN_PPG2747_BayHarborIsland_S320_EXT_HeroWater_Final_2K.jpg",
             "https://bayharbortowers.com/wp-content/uploads/2024/03/BINYAN_PPG2747_BayHarborIsland_S100_EXT_L3GardenExperience_Final3500.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox/",
+                                "url": "https://www.dropbox.com/scl/fo/h0aqazp05tzo03e1qie37/h?rlkey=7fbqm1ljwsgac6dm5clxlo4m8&e=1&st=d8opysr1&dl=0"
+                    },
+                    {
+                                "title": "Click here for Inventory list",
+                                "url": "https://drive.google.com/file/d/1gOlmCJvgx2dEI_fu3k8Qnm_xFIKuH2dL/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/h0aqazp05tzo03e1qie37/h/Presentation?dl=0&amp;preview=BHT+Sales+Presentation+(2).pdf&amp;subfolder_nav_tracking=1",
+                                "url": "https://www.dropbox.com/scl/fo/h0aqazp05tzo03e1qie37/h/Presentation?dl=0&preview=BHT+Sales+Presentation+(2).pdf&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here for Renderings",
+                                "url": "https://www.dropbox.com/scl/fo/h0aqazp05tzo03e1qie37/h/Renderings?dl=0&rlkey=7fbqm1ljwsgac6dm5clxlo4m8"
+                    }
         ]
     },
     {
         id: 13,
-        name: "Las Olas Signature High Rise",
+        name: "Andare Residences by Pininfarina",
+        commission: "5%",
         location: "Las Olas",
         type: "Condo",
         hoa: "$1.50 / sq ft",
@@ -300,11 +643,30 @@ const projectsData = [
             "https://floridayimby.com/wp-content/uploads/2023/10/Related_Group-Andare-03-Hero_Night-02B-scaled.jpg",
             "https://floridayimby.com/wp-content/uploads/2023/10/Related_Group-Andare-02-Worms_Eye_View-02-scaled.jpg",
             "https://floridayimby.com/wp-content/uploads/2023/10/Related_Group-Andare-04-Hero_Day-02-scaled.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/01stzcmu5y9931iednopj/h?rlkey=bb42fe0imblgr0rusl3zvkrsg&e=1&dl=0"
+                    },
+                    {
+                                "title": "Click here for the Inventory list",
+                                "url": "https://drive.google.com/file/d/1VrhpY6vPwmmMeot04tYJEBLK2FEAkC2b/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://drive.google.com/file/d/1cV0NKKdORrcOPsgw5ntQwD9rTXT1lBr1/view?usp=sharing",
+                                "url": "https://drive.google.com/file/d/1cV0NKKdORrcOPsgw5ntQwD9rTXT1lBr1/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/01stzcmu5y9931iednopj/h/RENDERINGS/ARX%20Renderings/Amenities?dl=0&amp;subfolder_nav_tracking=1",
+                                "url": "https://www.dropbox.com/scl/fo/01stzcmu5y9931iednopj/h/RENDERINGS/ARX%20Renderings/Amenities?dl=0&subfolder_nav_tracking=1"
+                    }
         ]
     },
     {
         id: 14,
-        name: "Fort Lauderdale Riverfront",
+        name: "Sixth&Rio —Fort Lauderdale",
+        commission: "5%",
         location: "Fort Lauderdale",
         type: "Condo",
         hoa: "$1.16 / sq ft",
@@ -323,11 +685,26 @@ const projectsData = [
             "https://sixthandrio.com/wp-content/uploads/2023/03/1031438580-Sixth-and-Rio-Full-Website-2023-Gallery-Renderings21-min.jpg",
             "https://sixthandrio.com/wp-content/uploads/2023/03/1031438580-Sixth-and-Rio-Full-Website-2023-Gallery-Renderings2-min.jpg",
             "https://sixthandrio.com/wp-content/uploads/2023/03/1031438580-Sixth-and-Rio-Full-Website-2023-Gallery-Renderings19-min.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/xyznf1c2lwl45119qua1r/h?rlkey=zicesbo0815aspxgijjwt8gkx&e=3&dl=0"
+                    },
+                    {
+                                "title": "Click here for the Inventory / Price range",
+                                "url": "https://drive.google.com/file/d/19_F9NvRoVM7zf8nStqPCT_BXe5UI9ERO/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here to see the email from Brett Perry",
+                                "url": "https://drive.google.com/file/d/1mx8jEN0CVQjy-ce86GfKMb6lFv6mNuYJ/view?usp=sharing"
+                    }
         ]
     },
     {
         id: 15,
-        name: "North Bay Village Estates",
+        name: "Continuum Club & Residences in North Bay Village",
+        commission: "6% and $10k bonus",
         location: "North Bay Village",
         type: "Condo",
         hoa: "$1.77 / SQ FT",
@@ -346,11 +723,30 @@ const projectsData = [
             "https://floridayimby.com/wp-content/uploads/2025/04/HERO-DUSK_Disclaimer-scaled.jpg",
             "https://floridayimby.com/wp-content/uploads/2023/12/ContinuumNBV_byWNY_v1-scaled.jpg",
             "https://floridayimby.com/wp-content/uploads/2023/12/ContinuumNBV_byWNY_v2-scaled.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/nlovw6mtaifuomw97m6ws/ANncEl7MIFhnb-FtOCRd_io?rlkey=a12ic24ssdekylyxrlp770mhh&e=1&st=zaipa0it&dl=0"
+                    },
+                    {
+                                "title": "Click here for the Inventory / Price Range",
+                                "url": "https://www.dropbox.com/scl/fo/nlovw6mtaifuomw97m6ws/ALP9uBnTcuub5iiJdiuElfQ/Price%20Ranges?dl=0&preview=Continuum+Club+%26+Residences+-+North+Bay+Village_Starting+Prices.pdf&rlkey=a12ic24ssdekylyxrlp770mhh&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "Click here to see the email from Marla Cohen",
+                                "url": "https://drive.google.com/file/d/1Rh09g1dArnHHhI73WJxuX7JtsZaORyIW/view?usp=sharing"
+                    },
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/nlovw6mtaifuomw97m6ws/AKyxAvn_eZbDpF89yTt28FI/Fact%20Sheet/English?dl=0&amp;preview=Continuum_Factsheet_110824.pdf&amp;rlkey=a12ic24ssdekylyxrlp770mhh&amp;subfolder_nav_tracking=1",
+                                "url": "https://www.dropbox.com/scl/fo/nlovw6mtaifuomw97m6ws/AKyxAvn_eZbDpF89yTt28FI/Fact%20Sheet/English?dl=0&preview=Continuum_Factsheet_110824.pdf&rlkey=a12ic24ssdekylyxrlp770mhh&subfolder_nav_tracking=1"
+                    }
         ]
     },
     {
         id: 16,
-        name: "North Bay Village Waterfront",
+        name: "Shoma Bay",
+        commission: "6%",
         location: "North Bay Village",
         type: "Condo",
         hoa: "$1.60 / sq Ft",
@@ -370,11 +766,26 @@ const projectsData = [
             "https://cdn.prod.website-files.com/60be753377a701a366693799/660c3585a3dee8f8301db16d_SBA1.jpg",
             "https://cdn.prod.website-files.com/60be753377a701a366693799/68ae109990191d3bbd399225_SHOMA%20NBV%20-%20POOL%20DECK%20AERIAL%20VIEW.webp",
             "https://cdn.prod.website-files.com/60be753377a701a366693799/68ae10c913fbab3f2e4b695f_SHOMA%20NBV%20-%20LOBBY-p-3200.webp"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/fbhvd3sf5ou35mf02ukux/ABpXWecKWlJFMI32UEPACRY/Shoma%20Bay%20-%20UNBRANDED?dl=0&rlkey=mewh1ogwdbr5l2q70vrvaixil"
+                    },
+                    {
+                                "title": "Click here for the Inventory / Price range",
+                                "url": "https://www.dropbox.com/scl/fo/fbhvd3sf5ou35mf02ukux/AN93vxnu2TW6PETgD_U7iEM/Shoma%20Bay%20-%20UNBRANDED/English/Price%20List?dl=0&rlkey=mewh1ogwdbr5l2q70vrvaixil&subfolder_nav_tracking=1"
+                    },
+                    {
+                                "title": "https://www.dropbox.com/scl/fo/fbhvd3sf5ou35mf02ukux/AKfB2IdtUMKgFHLbdvWAMGc/Shoma%20Bay%20-%20UNBRANDED/English/Fact%20Sheet?dl=0&amp;preview=Factsheet.pdf&amp;rlkey=mewh1ogwdbr5l2q70vrvaixil&amp;subfolder_nav_tracking=1",
+                                "url": "https://www.dropbox.com/scl/fo/fbhvd3sf5ou35mf02ukux/AKfB2IdtUMKgFHLbdvWAMGc/Shoma%20Bay%20-%20UNBRANDED/English/Fact%20Sheet?dl=0&preview=Factsheet.pdf&rlkey=mewh1ogwdbr5l2q70vrvaixil&subfolder_nav_tracking=1"
+                    }
         ]
     },
     {
         id: 17,
-        name: "Aventura Ultra Luxury",
+        name: "Avenia FENDI Casa Residences",
+        commission: "5%",
         location: "Aventura",
         type: "Condo",
         hoa: "Contact for details",
@@ -393,6 +804,20 @@ const projectsData = [
             "https://floridayimby.com/wp-content/uploads/2025/12/Avenia-Interiors-by-FENDI-Casa-Lobby-scaled.jpg",
             "https://floridayimby.com/wp-content/uploads/2025/12/Avenia-Interiors-by-FENDI-Casa-Lifestyle-Lounge-scaled.jpg",
             "https://floridayimby.com/wp-content/uploads/2025/12/Avenia-Interiors-by-FENDI-Casa-Card-Room-scaled.jpg"
+        ],
+        resources: [
+                    {
+                                "title": "Click here for the Dropbox",
+                                "url": "https://www.dropbox.com/scl/fo/fzl2u7qp8i3modhd0z0ds/AEyMbmd4pvgKS8Ju-nm4Gzc?rlkey=igaosid26n2k614cwy276981j&e=2&st=suelaaq4&dl=0"
+                    },
+                    {
+                                "title": "Click here for the Inventory list",
+                                "url": "https://drive.google.com/file/d/1Vk8-6cq33V6s52D7EjRcKCM4d3CiHGyO/view?usp=sharing"
+                    },
+                    {
+                                "title": "Click here to see the email from Cindy",
+                                "url": "https://drive.google.com/file/d/1JnuLcXyoaER480SYHIY-ubxgiS38F32t/view?usp=sharing"
+                    }
         ]
     }
 ];
@@ -495,14 +920,14 @@ const renderCards = () => {
                 <!-- Decorative top line -->
                 <div class="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-brand-gold/0 via-brand-gold/50 to-brand-gold/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                <div class="flex items-center text-gray-400 mb-3 text-xs font-semibold tracking-widest uppercase">
-                    <svg class="w-3.5 h-3.5 mr-1.5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                    ${project.location}
-                </div>
-                
-                <h3 class="font-heading text-2xl font-bold text-white mb-4 group-hover:text-brand-gold transition-colors duration-300 line-clamp-1">${project.name}</h3>
-                
-                <div class="grid grid-cols-2 gap-4 mb-8 flex-grow">
+                <div class="inline-flex items-center gap-2 bg-black/60 backdrop-blur-md rounded-full px-4 py-2 border border-white/10 mb-6 shadow-xl">
+                <svg class="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                <span class="text-xs font-semibold tracking-wider text-white uppercase">${project.location}</span>
+            </div>
+            
+            <h3 class="font-heading text-2xl font-bold text-white mb-4 group-hover:text-brand-gold transition-colors duration-300 line-clamp-1">Exclusive ${project.type}</h3>
+            
+            <div class="grid grid-cols-2 gap-4 mb-6">
                     <div class="border-l-2 border-brand-gold/50 pl-3">
                         <p class="text-[10px] uppercase tracking-widest text-gray-500 mb-1">Starting Price</p>
                         <p class="font-bold text-white text-sm truncate">${project.startingPrice}</p>
@@ -526,13 +951,13 @@ const modal = document.getElementById('project-modal');
 const modalContainer = document.getElementById('modal-container');
 
 const openModal = (projectId) => {
-    currentProject = projectsData.find(p => p.id === projectId);
+    const currentProject = projectsData.find(p => p.id === projectId);
     if (!currentProject) return;
 
     currentImageIndex = 0;
     
     // Header Info
-    document.getElementById('modal-title').textContent = currentProject.name;
+    document.getElementById('modal-title').textContent = `Exclusive ${currentProject.type}`;
     document.getElementById('modal-location').textContent = currentProject.location;
     
     // Fast Facts
@@ -540,12 +965,19 @@ const openModal = (projectId) => {
     document.getElementById('modal-price').textContent = currentProject.startingPrice;
     document.getElementById('modal-size').textContent = currentProject.size;
     document.getElementById('modal-delivery').textContent = currentProject.delivery;
-    document.getElementById('modal-developer').textContent = currentProject.developer;
     document.getElementById('modal-architect').textContent = currentProject.architect;
     
+    const hoaEl = document.getElementById('modal-hoa');
+    if(hoaEl) {
+        let hoaVal = currentProject.hoa;
+        if (!hoaVal || hoaVal.trim() === "" || hoaVal.toUpperCase() === "N/A") {
+            hoaVal = "Non-HOA";
+        }
+        hoaEl.textContent = hoaVal;
+    }
+
     // Rich Description
     document.getElementById('modal-description').textContent = currentProject.description;
-    
     // Amenities
     const amenitiesList = document.getElementById('modal-amenities');
     amenitiesList.innerHTML = currentProject.amenities.map(a => `
